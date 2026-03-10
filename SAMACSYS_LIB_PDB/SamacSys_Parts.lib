@@ -1362,4 +1362,51 @@ P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 0154005.DRL
+#/734181/1099393/2.50/2/4/Fuse
+DEF 0154005.DRL F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0154005.DRL" 550 150 50 H V L CNN
+F2 "0154005DRL" 550 50 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" 550 -50 50 H I L CNN
+F4 "Fuse Chip Very Fast Acting 5A 125V SMD Solder Pad 9.73 X 5.03 X 3.81mm T/R CSA/PSE/UL" 550 -150 50 H I L CNN "Description"
+F5 "3.81" 550 -250 50 H I L CNN "Height"
+F6 "576-0154005.DRL" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/0154005.DRL?qs=niDbCuOAQ0WPDoTVyHtxzw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "0154005.DRL" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RPMA5.0-4.5_OF
+#/15504951/1099393/2.50/8/2/Power Supply
+DEF RPMA5.0-4.5_OF PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "RPMA5.0-4.5_OF" 1050 200 50 H V L CNN
+F2 "RPMA5045OF" 1050 100 50 H I L CNN
+F3 "https://recom-power.com/pdf/Innoline/RPMA-4.5_OF.pdf" 1050 0 50 H I L CNN
+F4 "4.5 Amp 1/32 Brick Open Frame Single Output" 1050 -100 50 H I L CNN "Description"
+F5 "9.6" 1050 -200 50 H I L CNN "Height"
+F6 "919-RPMA5.0-4.5/OF" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RPMA50-45-OF?qs=A6eO%252BMLsxmRNfmgIuuKbDQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "RECOM Power" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RPMA5.0-4.5/OF" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X CTRL 2 0 -100 200 R 50 50 0 0 P
+X -VIN 3 0 -200 200 R 50 50 0 0 P
+X -VOUT 4 1200 -400 200 L 50 50 0 0 P
+X NC 5 1200 -300 200 L 50 50 0 0 N
+X TRIM 6 1200 -200 200 L 50 50 0 0 P
+X +SENSE 7 1200 -100 200 L 50 50 0 0 P
+X +VOUT 8 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
