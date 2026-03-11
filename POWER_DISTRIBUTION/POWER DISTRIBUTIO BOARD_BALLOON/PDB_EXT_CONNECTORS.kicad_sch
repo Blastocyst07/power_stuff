@@ -5317,12 +5317,6 @@
 		(uuid "2214b4ef-b3d8-4d1b-b58b-fed2ae9d5cce")
 	)
 	(junction
-		(at 29.21 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "258214fc-b800-428c-a35e-bc8e819dc59f")
-	)
-	(junction
 		(at 323.85 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5351,12 +5345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "329461e4-66b8-4729-8f8e-73cf128bafe8")
-	)
-	(junction
-		(at 35.56 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34efaed3-ebb6-4e1a-96e9-ae8a9dd185b8")
 	)
 	(junction
 		(at 36.83 29.21)
@@ -5407,12 +5395,6 @@
 		(uuid "4a0e51de-b63e-4b6f-a962-c8d87c6c75b1")
 	)
 	(junction
-		(at 33.02 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5118b000-f1b2-4b65-86eb-a9595027b015")
-	)
-	(junction
 		(at 176.53 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5435,12 +5417,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63710eb3-61e7-478f-903e-639833e23269")
-	)
-	(junction
-		(at 33.02 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "656c616a-9328-404b-8a67-f7f678341091")
 	)
 	(junction
 		(at 101.6 63.5)
@@ -5557,12 +5533,6 @@
 		(uuid "b1ae9828-59c6-4c78-940e-f499e2107129")
 	)
 	(junction
-		(at 35.56 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1da9a23-b686-423f-8d65-df6725e5d476")
-	)
-	(junction
 		(at -76.2 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5633,12 +5603,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a086df-1465-4e71-98fe-7409e94db324")
-	)
-	(junction
-		(at 31.75 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5f79e95-c6ee-4099-976e-8241d489829b")
 	)
 	(junction
 		(at 415.29 57.15)
@@ -5775,16 +5739,6 @@
 			(type default)
 		)
 		(uuid "0104c1e0-6fcd-4b6f-b634-7d6bdf454ea9")
-	)
-	(wire
-		(pts
-			(xy 35.56 90.17) (xy 35.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02186269-8d94-4405-b274-2a28429e9290")
 	)
 	(wire
 		(pts
@@ -5955,16 +5909,6 @@
 			(type default)
 		)
 		(uuid "0f2522bc-838c-40f5-b9fd-af04f16b02f4")
-	)
-	(wire
-		(pts
-			(xy 31.75 97.79) (xy 31.75 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f5c4b8d-064a-4721-9120-5ce2f2c8ef2c")
 	)
 	(wire
 		(pts
@@ -6288,16 +6232,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 137.16) (xy 33.02 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24d21cb6-546a-4266-b443-61c3803ffc6a")
-	)
-	(wire
-		(pts
 			(xy -165.1 270.51) (xy -167.64 270.51)
 		)
 		(stroke
@@ -6305,16 +6239,6 @@
 			(type default)
 		)
 		(uuid "24e3e86b-302b-4b08-8d20-25a95be7ffea")
-	)
-	(wire
-		(pts
-			(xy 29.21 133.35) (xy 29.21 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25126b16-8668-4351-9c41-af0bd0b014dc")
 	)
 	(wire
 		(pts
@@ -6405,16 +6329,6 @@
 			(type default)
 		)
 		(uuid "2bfeeb8c-58e1-4933-8e16-a2b46691f71c")
-	)
-	(wire
-		(pts
-			(xy 31.75 90.17) (xy 35.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5039fe-17aa-46bc-8ac4-dab6053a9515")
 	)
 	(wire
 		(pts
@@ -6588,16 +6502,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 138.43) (xy 33.02 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37eda134-652c-4748-bd93-2e51f93cb035")
-	)
-	(wire
-		(pts
 			(xy 332.74 132.08) (xy 327.66 132.08)
 		)
 		(stroke
@@ -6615,16 +6519,6 @@
 			(type default)
 		)
 		(uuid "3a2d6be8-54f9-42ec-bcfa-a35f518762d5")
-	)
-	(wire
-		(pts
-			(xy 35.56 96.52) (xy 35.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a72dbb3-8f19-4be7-a177-630876a70d46")
 	)
 	(wire
 		(pts
@@ -6968,16 +6862,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 35.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "588e36f7-beb6-4b2a-9e3c-dac1a1d1a017")
-	)
-	(wire
-		(pts
 			(xy -105.41 156.21) (xy -104.14 156.21)
 		)
 		(stroke
@@ -7178,16 +7062,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 90.17) (xy 31.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6849907a-6ff1-4972-834a-acaeb3e85427")
-	)
-	(wire
-		(pts
 			(xy -86.36 114.3) (xy -76.2 114.3)
 		)
 		(stroke
@@ -7358,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 90.17) (xy 39.37 90.17)
+			(xy 22.86 90.17) (xy 39.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7368,7 +7242,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 125.73) (xy 33.02 125.73)
+			(xy 19.05 125.73) (xy 36.83 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7618,16 +7492,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 102.87) (xy 35.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84856bd2-f207-4d10-b7ad-793735729161")
-	)
-	(wire
-		(pts
 			(xy -127 161.29) (xy -127 163.83)
 		)
 		(stroke
@@ -7705,16 +7569,6 @@
 			(type default)
 		)
 		(uuid "8998cf58-bb22-47d6-94e5-08e17b563407")
-	)
-	(wire
-		(pts
-			(xy 33.02 125.73) (xy 36.83 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "899dc749-7741-45d0-983c-24e12d3188fd")
 	)
 	(wire
 		(pts
@@ -7928,16 +7782,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 125.73) (xy 29.21 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "979decb8-526d-4d6d-a9c6-32d45d8e8111")
-	)
-	(wire
-		(pts
 			(xy 382.27 54.61) (xy 382.27 57.15)
 		)
 		(stroke
@@ -8035,16 +7879,6 @@
 			(type default)
 		)
 		(uuid "a432747c-84b8-4f8a-9c42-4d7cb0e2a9c8")
-	)
-	(wire
-		(pts
-			(xy 33.02 125.73) (xy 33.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52abf0a-0c78-47d2-b693-6b4d4f85a4b7")
 	)
 	(wire
 		(pts
@@ -8245,16 +8079,6 @@
 			(type default)
 		)
 		(uuid "b74bac98-d648-40cd-93e8-94d0fa489ed6")
-	)
-	(wire
-		(pts
-			(xy 33.02 132.08) (xy 33.02 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b85381e3-69d1-4560-8bd2-6c25f4188cc1")
 	)
 	(wire
 		(pts
@@ -9007,6 +8831,131 @@
 		(uuid "fdcf1cd5-dcbf-471f-bdbb-265a64c184c5")
 	)
 	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 15.24 33.02)
+		(row_heights 6.35 3.81 6.35)
+		(cells
+			(table_cell "short circuit protection"
+				(exclude_from_sim no)
+				(at -168.148 83.82 0)
+				(size 15.24 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2aee1620-ad74-40f1-adf3-58dde77ef094")
+			)
+			(table_cell "hiccup mode, auto recovery after fault removed"
+				(exclude_from_sim no)
+				(at -152.908 83.82 0)
+				(size 33.02 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9c627850-dd1b-40cf-a4e5-5ebeeb41e883")
+			)
+			(table_cell "over-voltage"
+				(exclude_from_sim no)
+				(at -168.148 90.17 0)
+				(size 15.24 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d6bd099c-139a-4e9c-861f-15773b821f1d")
+			)
+			(table_cell "110%-150% of nominal Vout"
+				(exclude_from_sim no)
+				(at -152.908 90.17 0)
+				(size 33.02 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4adea940-87a1-4990-b6b2-9ec364e09c8a")
+			)
+			(table_cell "Overload protection"
+				(exclude_from_sim no)
+				(at -168.148 93.98 0)
+				(size 15.24 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c203278f-23f1-4c54-a92b-863fc2c08c7f")
+			)
+			(table_cell "150% typ (typ=6A)"
+				(exclude_from_sim no)
+				(at -152.908 93.98 0)
+				(size 33.02 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "24de5d4c-12e2-4ec7-bb66-cf6db1bd75b7")
+			)
+		)
+	)
+	(table
 		(column_count 3)
 		(border
 			(external yes)
@@ -9742,131 +9691,6 @@
 					(justify left top)
 				)
 				(uuid "0eb766c0-2ebb-4b35-b903-a9917380b488")
-			)
-		)
-	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 15.24 33.02)
-		(row_heights 6.35 3.81 6.35)
-		(cells
-			(table_cell "short circuit protection"
-				(exclude_from_sim no)
-				(at -168.148 83.82 0)
-				(size 15.24 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "2aee1620-ad74-40f1-adf3-58dde77ef094")
-			)
-			(table_cell "hiccup mode, auto recovery after fault removed"
-				(exclude_from_sim no)
-				(at -152.908 83.82 0)
-				(size 33.02 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "9c627850-dd1b-40cf-a4e5-5ebeeb41e883")
-			)
-			(table_cell "over-voltage"
-				(exclude_from_sim no)
-				(at -168.148 90.17 0)
-				(size 15.24 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "d6bd099c-139a-4e9c-861f-15773b821f1d")
-			)
-			(table_cell "110%-150% of nominal Vout"
-				(exclude_from_sim no)
-				(at -152.908 90.17 0)
-				(size 33.02 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4adea940-87a1-4990-b6b2-9ec364e09c8a")
-			)
-			(table_cell "Overload protection"
-				(exclude_from_sim no)
-				(at -168.148 93.98 0)
-				(size 15.24 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "c203278f-23f1-4c54-a92b-863fc2c08c7f")
-			)
-			(table_cell "150% typ (typ=6A)"
-				(exclude_from_sim no)
-				(at -152.908 93.98 0)
-				(size 33.02 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "24de5d4c-12e2-4ec7-bb66-cf6db1bd75b7")
 			)
 		)
 	)
@@ -10881,73 +10705,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 35.56 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03e83aed-1c94-4487-a31b-266fcb42c59d")
-		(property "Reference" "R50"
-			(at 39.624 93.98 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 37.592 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 35.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec03e378-e7e6-4f5a-a750-29ac042aa422")
-		)
-		(pin "2"
-			(uuid "75882508-b104-4768-b4c8-ac3b64752b69")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -16675,71 +16432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71934437-eda4-4878-a32d-976bc534e231")
-		(property "Reference" "#PWR0152"
-			(at 33.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1323dc53-2614-44df-bca1-aeb6f2ea68f8")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 99.06 59.69 0)
 		(unit 1)
@@ -16926,71 +16618,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "785cf02c-0837-4b8a-903e-fe8ed0e63821")
-		(property "Reference" "#PWR0154"
-			(at 35.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c32d470-775b-4caf-b875-3a56fb674448")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -21421,79 +21048,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAS21")
-		(at 29.21 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b49d9b4b-a942-404c-bdd2-3355c4d84944")
-		(property "Reference" "D7"
-			(at 26.67 130.8101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS21"
-			(at 26.67 128.2701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 33.655 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
-			(at 29.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
-			(at 29.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e4fa9b-b7fd-4412-b61f-e9a04e976f3f")
-		)
-		(pin "3"
-			(uuid "c32f4eef-195b-4927-bfa6-a4c1a9701e1f")
-		)
-		(pin "2"
-			(uuid "d7a9e5c5-bcf8-4ff0-8aaf-974d66b532f4")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -26649,73 +26203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 33.02 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f60c77ad-20d9-4084-8028-0da96fa280b1")
-		(property "Reference" "R48"
-			(at 37.084 129.54 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 35.052 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 33.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cb7555a-bf1c-41fb-a48b-e5854e0da889")
-		)
-		(pin "2"
-			(uuid "c0537e97-e696-459f-b5b5-cf6a85e7ed26")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 129.54 118.11 0)
 		(unit 1)
@@ -26968,79 +26455,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAS21")
-		(at 31.75 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8d92c6d-90fe-4675-8e04-41305ebae59d")
-		(property "Reference" "D9"
-			(at 29.21 95.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAS21"
-			(at 29.21 92.7101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 36.195 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
-			(at 31.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
-			(at 31.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3339724f-f77b-46c3-a774-38394b729a3b")
-		)
-		(pin "3"
-			(uuid "eb64674a-f495-4dc1-bd98-519cabe659b7")
-		)
-		(pin "2"
-			(uuid "6fd7d11d-d6e0-42b5-9601-15f13672b770")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "D9")
 					(unit 1)
 				)
 			)

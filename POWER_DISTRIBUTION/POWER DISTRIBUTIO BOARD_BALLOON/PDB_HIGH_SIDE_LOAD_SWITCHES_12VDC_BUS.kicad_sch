@@ -1829,6 +1829,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 104.14) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befffb61-5af1-485f-b0fa-f5f42e30b935")
+	)
+	(wire
+		(pts
 			(xy 207.01 85.09) (xy 209.55 85.09)
 		)
 		(stroke
@@ -1949,13 +1959,23 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 121.92 105.41)
+			(xy 107.95 105.41) (xy 128.27 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e63dff74-2045-494c-afce-87c4d05f12bf")
+	)
+	(wire
+		(pts
+			(xy 245.11 104.14) (xy 245.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a95d12-ddf9-46cd-ad3b-5f2ee614d040")
 	)
 	(wire
 		(pts
@@ -2851,6 +2871,72 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5/28364470-c987-49cb-a285-9d427e41e45e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 128.27 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eec1b28-7ae8-410a-84fe-58c8c31ef471")
+		(property "Reference" "#PWR0231"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT+"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b4ce19-dae9-4960-9ec7-70602a96cb58")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5/28364470-c987-49cb-a285-9d427e41e45e"
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -4049,71 +4135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 121.92 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afa5e9be-139c-42ea-86b0-080da2b751be")
-		(property "Reference" "#PWR023"
-			(at 118.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12VDC"
-			(at 126.492 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 121.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f250902-68fa-4f8d-9920-e723b4085712")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5/28364470-c987-49cb-a285-9d427e41e45e"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 185.42 69.85 180)
 		(unit 1)
@@ -4711,15 +4732,16 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 245.11 105.41 270)
+		(at 245.11 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa92960d-82d9-4ffd-9361-c3d770386171")
-		(property "Reference" "#PWR032"
-			(at 241.3 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "f0c40b33-f3ca-4991-8079-88c0c4ea55aa")
+		(property "Reference" "#PWR0232"
+			(at 245.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,8 +4749,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12VDC"
-			(at 249.682 105.918 0)
+		(property "Value" "VBAT+"
+			(at 245.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 105.41 0)
+			(at 245.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 105.41 0)
+			(at 245.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 245.11 105.41 0)
+			(at 245.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,12 +4785,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "33a9aa58-3e75-4187-ae8d-3ff6c9442397")
+			(uuid "0b1d128c-b55d-4c62-92d7-4dc8a2df0d62")
 		)
 		(instances
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/6951cc95-37ef-4a4f-8a3f-a120589363a5/28364470-c987-49cb-a285-9d427e41e45e"
-					(reference "#PWR032")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)

@@ -130,6 +130,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:RSS070N05HZGTB"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 34.29 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RSS070N05HZGTB"
+				(at 34.29 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 34.29 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com//en/products/databook/datasheet/discrete/transistor/mosfet/rss070n05hzgtb-e.pdf"
+				(at 34.29 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Automotive Nch 45V 7A Power MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Automotive Nch 45V 7A Power MOSFET"
+				(at 34.29 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 34.29 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "755-RSS070N05HZGTB"
+				(at 34.29 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSS070N05HZGTB?qs=BJlw7L4Cy78yWB5ImKEUng%3D%3D"
+				(at 34.29 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ROHM Semiconductor"
+				(at 34.29 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RSS070N05HZGTB"
+				(at 34.29 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "RSS070N05HZGTB_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SOURCE_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SOURCE_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SOURCE_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "DRAIN_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "DRAIN_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -5.08 180)
+					(length 5.08)
+					(name "DRAIN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "DRAIN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RSS070N05HZGTB_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 33.02 2.54) (xy 33.02 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND1"
 			(power)
 			(pin_numbers
@@ -221,311 +497,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "samac_sys:IPD047N03LF2SATMA1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "IPD047N03LF2SATMA1"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "IPD047N03LF2SATMA1"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/ipd047n03lf2s/"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.52"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "726-IPD047N03LF2SATM"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD047N03LF2SATMA1?qs=3vio67wFuYq5Cj1%2F9iYlBQ%3D%3D"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "IPD047N03LF2SATMA1_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -810,16 +781,40 @@
 		(uuid "82827c8c-9713-46d1-98f4-29bdc0eae4f3")
 	)
 	(junction
-		(at 128.27 78.74)
+		(at 151.13 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "046b8112-39a1-44de-8450-17ba32704de5")
+		(uuid "0e14f648-b147-4180-8f51-0a4fdddec83a")
 	)
 	(junction
-		(at 147.32 107.95)
+		(at 194.31 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08b8d6ea-ea9f-4170-ab37-7781a9e04c98")
+		(uuid "1ea60382-3dff-4dc8-94ae-efccd82da1af")
+	)
+	(junction
+		(at 66.04 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311bd85f-7248-481b-bbfe-132f1c360169")
+	)
+	(junction
+		(at 194.31 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e2c0521-57ed-4435-9e8c-10d70a49933a")
+	)
+	(junction
+		(at 129.54 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "432f6112-e884-40b8-b3c1-ae062680c14b")
+	)
+	(junction
+		(at 107.95 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ad710e-c4ea-4352-8863-f9d8337bf1a9")
 	)
 	(junction
 		(at 55.88 78.74)
@@ -828,10 +823,28 @@
 		(uuid "a42faa55-9b19-4b26-9f8d-4a7f2b9943d1")
 	)
 	(junction
-		(at 74.93 107.95)
+		(at 107.95 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0aa1e03-5aad-411e-bb0b-b422df6ef01c")
+		(uuid "ce78f74e-fa80-44b5-b724-114ba39ebe8a")
+	)
+	(junction
+		(at 66.04 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d17d5f8c-e6d9-47ae-9c5b-d56664a223e6")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea180365-0283-4d0d-884e-314dc482a132")
+	)
+	(junction
+		(at 107.95 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12af8b7-8aa3-459d-8270-3cbeaff445af")
 	)
 	(wire
 		(pts
@@ -845,27 +858,97 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 128.27 83.82)
+			(xy 66.04 71.12) (xy 67.31 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "050747b6-fe2b-471f-bd2b-42dee317b992")
+		(uuid "046ccf05-1375-423d-8465-eab297de2efa")
 	)
 	(wire
 		(pts
-			(xy 74.93 107.95) (xy 74.93 109.22)
+			(xy 190.5 73.66) (xy 194.31 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1941df2d-fd0c-4206-b57b-f95008dc32d7")
+		(uuid "05d689a1-63b1-409c-9d01-a8fed5ddd25c")
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 147.32 109.22)
+			(xy 125.73 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2aece3-ddb2-487b-bfef-356f91623b5b")
+	)
+	(wire
+		(pts
+			(xy 66.04 68.58) (xy 66.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c310599-30e3-4768-9d7e-7bc7d535fa99")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10baf8e4-0170-4f81-9675-f0ed0f808736")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b5e4c2-6a19-46af-a903-b401bbfc9390")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c322e6-f3c7-4d05-984a-05b3c0f60635")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4831d0-4ab9-42ae-b198-f25939f549d3")
+	)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228b8c19-971d-4ad5-90d5-e018ca49f2be")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -875,23 +958,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 74.93 107.95)
+			(xy 194.31 76.2) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e7fbfff-78b6-4492-87c4-e66f4bdaad34")
-	)
-	(wire
-		(pts
-			(xy 125.73 78.74) (xy 128.27 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edb6c69-20f4-4ba0-a785-83b1b4d2f202")
+		(uuid "2e89f149-3de5-412b-8abf-6b7dbc061033")
 	)
 	(wire
 		(pts
@@ -905,13 +978,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 128.27 107.95)
+			(xy 193.04 71.12) (xy 194.31 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35977be1-20ef-40ca-8354-dbdc3e3219ad")
+		(uuid "34b6e962-b0ce-4799-93b1-f0bb2935a44f")
 	)
 	(wire
 		(pts
@@ -925,13 +998,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 107.95) (xy 74.93 107.95)
+			(xy 151.13 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c0567ec-3604-48bd-b963-ad17c8614bc5")
+		(uuid "3d404c97-10fd-4011-8043-975d2675f22d")
 	)
 	(wire
 		(pts
@@ -945,6 +1018,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 73.66) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d94f96-a35a-4bd9-89d0-5f9bc82299f0")
+	)
+	(wire
+		(pts
 			(xy 118.11 78.74) (xy 120.65 78.74)
 		)
 		(stroke
@@ -952,6 +1035,36 @@
 			(type default)
 		)
 		(uuid "5c9bbb61-0ff4-4119-a51f-0d76857b708a")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66155556-3fc8-4095-99ae-a8bb70d54097")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732a4aa3-6c7c-4e32-8a4d-7c0859653698")
+	)
+	(wire
+		(pts
+			(xy 151.13 71.12) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86dcbe82-afde-41c2-b929-d0ad9be88ad0")
 	)
 	(wire
 		(pts
@@ -965,17 +1078,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 147.32 107.95)
+			(xy 190.5 76.2) (xy 194.31 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f158450-5627-451b-848b-7f17aca560ed")
+		(uuid "88b342f0-a148-41e8-b4fe-d6f56cd4283f")
 	)
 	(wire
 		(pts
-			(xy 55.88 104.14) (xy 55.88 107.95)
+			(xy 55.88 104.14) (xy 55.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -995,13 +1108,33 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 139.7 78.74)
+			(xy 151.13 71.12) (xy 151.13 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1f91b72-b0f5-4d53-b642-95b4564045a2")
+		(uuid "99c55e80-9f97-4a5c-a062-7e891dcf36f1")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f511bb0-3fe3-45cd-aecb-4cd399388d59")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe4ef5e-95b6-49c6-8f00-f46868f02bba")
 	)
 	(wire
 		(pts
@@ -1015,13 +1148,93 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 107.95)
+			(xy 190.5 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0c3a713-a347-44ef-8767-adef0156290c")
+		(uuid "b1223286-b159-416d-b678-f8f954083f82")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c0007e-d46d-4100-b38d-20d480f49ded")
+	)
+	(wire
+		(pts
+			(xy 194.31 69.85) (xy 194.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3506f2e-d955-4416-b4ab-c25bf2652a8d")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b634b062-fac8-4ab9-9684-589a79b86745")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 67.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d5bada-614e-4687-8666-2523ae06a5e3")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d0f32c-a8a0-42d2-9cb2-f3f82d7459d6")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4504f52-f17f-4ffa-b940-a4aa3dbe426a")
+	)
+	(wire
+		(pts
+			(xy 107.95 68.58) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d2343a-cdf2-47ba-82ec-f397342d505f")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b9d39d-7a14-4d6b-93ae-e375c15f364d")
 	)
 	(wire
 		(pts
@@ -1032,6 +1245,26 @@
 			(type default)
 		)
 		(uuid "dc469890-6538-4a78-bded-c43a0953def4")
+	)
+	(wire
+		(pts
+			(xy 107.95 73.66) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e610b132-26f6-4eaa-abe5-088301a48e3d")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc4e4f6-16e7-414b-b092-be37191aba46")
 	)
 	(global_label "GPIO1_EN"
 		(shape input)
@@ -1057,7 +1290,7 @@
 	)
 	(global_label "PYR_1"
 		(shape input)
-		(at 74.93 68.58 90)
+		(at 107.95 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1067,7 +1300,7 @@
 		)
 		(uuid "cd2ee920-1162-45ce-afd5-4c76dddc0c04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 59.7891 90)
+			(at 107.95 59.7891 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1334,7 @@
 	)
 	(global_label "PYR_2"
 		(shape input)
-		(at 147.32 68.58 90)
+		(at 194.31 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1109,9 +1342,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ef86e4f6-5487-4d64-9be1-4e8e9b84b965")
+		(uuid "cead6935-ee53-4666-b7bf-e81c9edefb88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 59.7891 90)
+			(at 194.31 61.0591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,8 +1355,156 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:RSS070N05HZGTB")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "228f2c7c-fa2e-42b2-a5df-8e932b5214a9")
+		(property "Reference" "Q4"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSS070N05HZGTB"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com//en/products/databook/datasheet/discrete/transistor/mosfet/rss070n05hzgtb-e.pdf"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive Nch 45V 7A Power MOSFET"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Automotive Nch 45V 7A Power MOSFET"
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RSS070N05HZGTB"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSS070N05HZGTB?qs=BJlw7L4Cy78yWB5ImKEUng%3D%3D"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RSS070N05HZGTB"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "227d9cd7-da10-4d55-9ae2-407c25c89d43")
+		)
+		(pin "8"
+			(uuid "ff6877a6-bbe1-4b03-8a3c-73c39b90a746")
+		)
+		(pin "4"
+			(uuid "db54ebf6-79f6-4f44-a495-154693d509e6")
+		)
+		(pin "2"
+			(uuid "17dc9a3c-4c34-4778-ad01-337bde00fbf2")
+		)
+		(pin "6"
+			(uuid "602d5cb5-2280-4136-820e-17595921b297")
+		)
+		(pin "1"
+			(uuid "57d65452-8bbc-4fc1-9a2e-febe227fbc47")
+		)
+		(pin "7"
+			(uuid "29cc1e41-5b59-416e-a554-28180319efb0")
+		)
+		(pin "5"
+			(uuid "412775e8-2358-467f-802a-e8d7648b61d5")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/33d5627f-0ef6-494d-8d2e-c6d28999e801"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
-		(at 74.93 109.22 0)
+		(at 55.88 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1132,7 +1513,7 @@
 		(fields_autoplaced yes)
 		(uuid "43d635a3-e804-458e-a277-1ae9d15a6a85")
 		(property "Reference" "#PWR098"
-			(at 74.93 115.57 0)
+			(at 55.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 114.3 0)
+			(at 55.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 109.22 0)
+			(at 55.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 109.22 0)
+			(at 55.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 74.93 109.22 0)
+			(at 55.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1570,7 @@
 	)
 	(symbol
 		(lib_id "samac_sys:SMBJ12CA")
-		(at 128.27 104.14 90)
+		(at 129.54 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1198,7 +1579,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a718808-8846-4bd1-a565-9eb98146faa6")
 		(property "Reference" "D6"
-			(at 132.08 92.7099 90)
+			(at 133.35 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1588,7 @@
 			)
 		)
 		(property "Value" "SMBJ12CA"
-			(at 132.08 95.2499 90)
+			(at 133.35 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1597,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:DIONM5436X244N"
-			(at 221.92 91.44 0)
+			(at 223.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.92 91.44 0)
+			(at 323.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1617,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes 12V 800W Bidir TransZorb 5% Tol"
-			(at 128.27 104.14 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1626,7 @@
 			)
 		)
 		(property "Height" "2.44"
-			(at 521.92 91.44 0)
+			(at 523.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1636,7 @@
 			)
 		)
 		(property "Mouser Part Number" "78-SMBJ12CA"
-			(at 621.92 91.44 0)
+			(at 623.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1646,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ12CA?qs=%252BA9HMDDz5KaELJY%2F7%252BDUwA%3D%3D"
-			(at 721.92 91.44 0)
+			(at 723.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1656,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 821.92 91.44 0)
+			(at 823.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +1666,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMBJ12CA"
-			(at 921.92 91.44 0)
+			(at 923.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,131 +1757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "samac_sys:IPD047N03LF2SATMA1")
-		(at 67.31 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61ddd967-2497-4ba2-b52e-b9f828fde145")
-		(property "Reference" "Q1"
-			(at 78.74 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPD047N03LF2SATMA1"
-			(at 78.74 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:IPD047N03LF2SATMA1"
-			(at 78.74 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/ipd047n03lf2s/"
-			(at 78.74 277.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
-			(at 67.31 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.52"
-			(at 78.74 477.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPD047N03LF2SATM"
-			(at 78.74 577.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD047N03LF2SATMA1?qs=3vio67wFuYq5Cj1%2F9iYlBQ%3D%3D"
-			(at 78.74 677.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 78.74 777.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
-			(at 78.74 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f7220c1-4f1c-4fa0-9577-fefb1a6eb8fe")
-		)
-		(pin "2"
-			(uuid "b54a4963-9690-41d0-a81f-d15079a16197")
-		)
-		(pin "3"
-			(uuid "7d40555b-ca04-4335-a2c0-53a848c6d39c")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/33d5627f-0ef6-494d-8d2e-c6d28999e801"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 118.11 93.98 180)
 		(unit 1)
@@ -1568,55 +1824,17 @@
 		)
 	)
 	(symbol
-		(lib_id "samac_sys:IPD047N03LF2SATMA1")
-		(at 139.7 78.74 0)
+		(lib_id "power:GND1")
+		(at 66.04 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f718dda-f8cf-4295-b9c1-b1a4484cfcc8")
-		(property "Reference" "Q2"
-			(at 151.13 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPD047N03LF2SATMA1"
-			(at 151.13 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:IPD047N03LF2SATMA1"
-			(at 151.13 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/mosfet/n-channel/ipd047n03lf2s/"
-			(at 151.13 277.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 30 V 71A (Tc) 65W (Tc) Surface Mount PG-TO252-3"
-			(at 139.7 78.74 0)
+		(uuid "71d59e17-f9ba-4745-9c84-a4923ee57afe")
+		(property "Reference" "#PWR0235"
+			(at 66.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,69 +1842,196 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.52"
-			(at 151.13 477.47 0)
+		(property "Value" "GND"
+			(at 66.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-IPD047N03LF2SATM"
-			(at 151.13 577.47 0)
+		(property "Datasheet" ""
+			(at 66.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD047N03LF2SATMA1?qs=3vio67wFuYq5Cj1%2F9iYlBQ%3D%3D"
-			(at 151.13 677.47 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 66.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 151.13 777.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPD047N03LF2SATMA1"
-			(at 151.13 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "709749e2-8974-4b8b-aa80-53e789db1d96")
-		)
-		(pin "2"
-			(uuid "37d6f1ef-bf4f-41e3-b93a-179e6a131e43")
-		)
-		(pin "3"
-			(uuid "98492e7b-6ea4-4c52-8a10-9b34ddc6115a")
+			(uuid "395b20c8-bdeb-46e3-b84a-286494b7b3b8")
 		)
 		(instances
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/33d5627f-0ef6-494d-8d2e-c6d28999e801"
-					(reference "Q2")
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:RSS070N05HZGTB")
+		(at 152.4 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df19bbb-f5a8-4ce7-bb72-af492a26b99f")
+		(property "Reference" "Q3"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSS070N05HZGTB"
+			(at 171.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com//en/products/databook/datasheet/discrete/transistor/mosfet/rss070n05hzgtb-e.pdf"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive Nch 45V 7A Power MOSFET"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Automotive Nch 45V 7A Power MOSFET"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-RSS070N05HZGTB"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSS070N05HZGTB?qs=BJlw7L4Cy78yWB5ImKEUng%3D%3D"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RSS070N05HZGTB"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7d911a1e-8ed9-4a51-9ada-02b1dce1db6b")
+		)
+		(pin "8"
+			(uuid "62bf73aa-956d-4587-b4be-248576706abf")
+		)
+		(pin "4"
+			(uuid "86b587a9-e8f0-4886-85f9-5504c1ced8f2")
+		)
+		(pin "2"
+			(uuid "28403bc2-fb37-41f9-8373-2ab877254988")
+		)
+		(pin "6"
+			(uuid "602407b6-c3b6-4c3b-9fd9-ceaaad27c33e")
+		)
+		(pin "1"
+			(uuid "a9a8aa3c-0c24-41fe-a9e1-d66311caf6bc")
+		)
+		(pin "7"
+			(uuid "8a483fb5-188a-40d7-a70d-35d3596416eb")
+		)
+		(pin "5"
+			(uuid "1369f955-ce86-4cbc-b2e8-2ca7c9e6b0c4")
+		)
+		(instances
+			(project ""
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/33d5627f-0ef6-494d-8d2e-c6d28999e801"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1948,6 +2293,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 151.13 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a8ef74-539e-41eb-840a-0d242dfb68b7")
+		(property "Reference" "#PWR0185"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c854586e-6cbc-446c-af69-001c3e3f1c31")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/33d5627f-0ef6-494d-8d2e-c6d28999e801"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 50.8 78.74 270)
 		(unit 1)
@@ -2016,7 +2427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 147.32 109.22 0)
+		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2025,7 +2436,7 @@
 		(fields_autoplaced yes)
 		(uuid "f002e8ed-05dc-4bb8-a6c1-fe7715ca1a6e")
 		(property "Reference" "#PWR0100"
-			(at 147.32 115.57 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 114.3 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 109.22 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 109.22 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 147.32 109.22 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

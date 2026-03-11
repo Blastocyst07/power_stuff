@@ -336,4 +336,10 @@ K
 F https://recom-power.com/pdf/Innoline/RPMA-4.5_OF.pdf
 $ENDCMP
 #
+$CMP RSS070N05HZGTB
+D Automotive Nch 45V 7A Power MOSFET
+K
+F https://fscdn.rohm.com//en/products/databook/datasheet/discrete/transistor/mosfet/rss070n05hzgtb-e.pdf
+$ENDCMP
+#
 #End Doc Library
