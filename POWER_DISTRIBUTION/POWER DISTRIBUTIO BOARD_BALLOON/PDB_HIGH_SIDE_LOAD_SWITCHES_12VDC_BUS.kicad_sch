@@ -2129,6 +2129,28 @@
 			)
 		)
 	)
+	(global_label "HEATER_EN"
+		(shape input)
+		(at 189.23 91.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb829e6a-e24e-41d2-bb13-4a1c7e622239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 104.827 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Diode:BAS21")
 		(at 80.01 64.77 270)

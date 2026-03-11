@@ -4344,6 +4344,630 @@
 				(type solid)
 			)
 		)
+		(column_widths 27.94 19.05 0)
+		(row_heights 5.08 6.35 6.35 3.81 5.08 6.35 5.08 5.08 5.08 3.81 0)
+		(cells
+			(table_cell "Input Voltage (V)"
+				(exclude_from_sim no)
+				(at 321.31 147.32 0)
+				(size 27.94 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "343ee7c5-e307-4399-b868-32984826d3c0")
+			)
+			(table_cell "7.2"
+				(exclude_from_sim no)
+				(at 349.25 147.32 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "99d12fd6-46de-4b18-9abb-62495ed3fce8")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 147.32 0)
+				(size 0 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b8aecca6-8d13-4ae9-a052-23a1e67ec435")
+			)
+			(table_cell "UVLO in software (V)"
+				(exclude_from_sim no)
+				(at 321.31 152.4 0)
+				(size 27.94 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ba6edb85-fe5d-47df-8029-db188db62ed0")
+			)
+			(table_cell "6.6"
+				(exclude_from_sim no)
+				(at 349.25 152.4 0)
+				(size 19.05 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "97ae4a80-d5f9-4cea-854f-57dc2ce1947e")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 152.4 0)
+				(size 0 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2394286d-6c8f-4bbf-81b8-994b706a1237")
+			)
+			(table_cell "Max. Input Voltage(V)"
+				(exclude_from_sim no)
+				(at 321.31 158.75 0)
+				(size 27.94 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3410d544-e88a-4604-b29f-148e387d0c8c")
+			)
+			(table_cell "8.4"
+				(exclude_from_sim no)
+				(at 349.25 158.75 0)
+				(size 19.05 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "37e32835-ddc8-4220-87a2-889b6543c40c")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 158.75 0)
+				(size 0 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a77ae21c-a898-42ce-b624-68fd97499a2e")
+			)
+			(table_cell "Output Voltage(V)"
+				(exclude_from_sim no)
+				(at 321.31 165.1 0)
+				(size 27.94 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5d114d5d-a244-40c7-a072-a81bfa6b78a2")
+			)
+			(table_cell "5"
+				(exclude_from_sim no)
+				(at 349.25 165.1 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "39857d8a-f1c6-4a40-8841-5e42cdf7586b")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 165.1 0)
+				(size 0 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "429ae150-1095-48eb-878e-c72ce7e33b9f")
+			)
+			(table_cell "Output Current(A) limit"
+				(exclude_from_sim no)
+				(at 321.31 168.91 0)
+				(size 27.94 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "00fe7189-ea0d-42aa-9678-c78a7a490f79")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 349.25 168.91 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "293e7547-1e51-49b6-accb-c16dac6ab4b4")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 168.91 0)
+				(size 0 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3849cb46-adcd-4fdb-8683-8827cc4f57da")
+			)
+			(table_cell "Frequency(kHz)"
+				(exclude_from_sim no)
+				(at 321.31 173.99 0)
+				(size 27.94 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "152e6758-379e-49ce-af19-7dc3d35d1887")
+			)
+			(table_cell "516.78"
+				(exclude_from_sim no)
+				(at 349.25 173.99 0)
+				(size 19.05 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f12706c0-ca85-41f2-b267-15f2612b6481")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 173.99 0)
+				(size 0 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a185a10d-a5da-48c5-987a-f0d9bed367ac")
+			)
+			(table_cell "Input Voltage Ripple(mV)"
+				(exclude_from_sim no)
+				(at 321.31 180.34 0)
+				(size 27.94 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7edc49f8-d428-4722-aedc-c8da614fc21b")
+			)
+			(table_cell "510.81"
+				(exclude_from_sim no)
+				(at 349.25 180.34 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "59c1bfde-e3e8-43d0-a746-649564e7c218")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 180.34 0)
+				(size 0 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "197bbde5-16b9-4525-a245-8f03f1da6c00")
+			)
+			(table_cell "Output Voltage Ripple(mV)"
+				(exclude_from_sim no)
+				(at 321.31 185.42 0)
+				(size 27.94 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a2ff8adc-39c0-4a6b-a5b9-90a7ecd8c550")
+			)
+			(table_cell "9.18"
+				(exclude_from_sim no)
+				(at 349.25 185.42 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4ba5de95-f12a-498d-acdf-16b23803854b")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 185.42 0)
+				(size 0 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9a9ba359-1474-4ced-a0de-1a177c21bcfd")
+			)
+			(table_cell "Inductor Peak-Peak Current(A)"
+				(exclude_from_sim no)
+				(at 321.31 190.5 0)
+				(size 27.94 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9b9f23be-6366-4237-b43b-c289201d46d2")
+			)
+			(table_cell "1.15"
+				(exclude_from_sim no)
+				(at 349.25 190.5 0)
+				(size 19.05 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c82f293a-4d70-4b24-b20d-d39e3afb8b49")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 190.5 0)
+				(size 0 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "859ef0b4-9d5f-4b6e-bef2-55570693b7f3")
+			)
+			(table_cell "Efffiency(%)"
+				(exclude_from_sim no)
+				(at 321.31 195.58 0)
+				(size 27.94 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "10548ae8-8e94-4543-a71c-dc3f12709549")
+			)
+			(table_cell "95.1"
+				(exclude_from_sim no)
+				(at 349.25 195.58 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ab4a9eaa-59fe-45fa-b59d-d2c45f129bc8")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 195.58 0)
+				(size 0 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0dfb7be8-7797-4ce4-b8c3-e3b1eb41c5bb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 321.31 199.39 0)
+				(size 27.94 0)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1200df59-db9e-4b88-a63e-6efc53dafd81")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 349.25 199.39 0)
+				(size 19.05 0)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5097146e-0d98-44a7-811d-fd449516e03a")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 368.3 199.39 0)
+				(size 0 0)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fd571bda-4129-4620-84e7-31d77163efbb")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.05)
+		(row_heights -5.08)
+		(cells
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 321.31 195.58 0)
+				(size 19.05 -5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f5f0bb62-af55-47e0-9d60-4029796e42c6")
+			)
+		)
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
 		(column_widths 19.05 19.05 0)
 		(row_heights 2.54 5.08 6.35 6.35 3.81 5.08 6.35 5.08 7.62 8.89 5.08 0)
 		(cells
@@ -4945,630 +5569,6 @@
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 571.5 92.71 0)
-				(size 0 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fd571bda-4129-4620-84e7-31d77163efbb")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 19.05)
-		(row_heights -5.08)
-		(cells
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 321.31 195.58 0)
-				(size 19.05 -5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f5f0bb62-af55-47e0-9d60-4029796e42c6")
-			)
-		)
-	)
-	(table
-		(column_count 3)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 27.94 19.05 0)
-		(row_heights 5.08 6.35 6.35 3.81 5.08 6.35 5.08 5.08 5.08 3.81 0)
-		(cells
-			(table_cell "Input Voltage (V)"
-				(exclude_from_sim no)
-				(at 321.31 147.32 0)
-				(size 27.94 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "343ee7c5-e307-4399-b868-32984826d3c0")
-			)
-			(table_cell "7.2"
-				(exclude_from_sim no)
-				(at 349.25 147.32 0)
-				(size 19.05 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "99d12fd6-46de-4b18-9abb-62495ed3fce8")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 147.32 0)
-				(size 0 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b8aecca6-8d13-4ae9-a052-23a1e67ec435")
-			)
-			(table_cell "UVLO in software (V)"
-				(exclude_from_sim no)
-				(at 321.31 152.4 0)
-				(size 27.94 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ba6edb85-fe5d-47df-8029-db188db62ed0")
-			)
-			(table_cell "6.6"
-				(exclude_from_sim no)
-				(at 349.25 152.4 0)
-				(size 19.05 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "97ae4a80-d5f9-4cea-854f-57dc2ce1947e")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 152.4 0)
-				(size 0 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "2394286d-6c8f-4bbf-81b8-994b706a1237")
-			)
-			(table_cell "Max. Input Voltage(V)"
-				(exclude_from_sim no)
-				(at 321.31 158.75 0)
-				(size 27.94 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "3410d544-e88a-4604-b29f-148e387d0c8c")
-			)
-			(table_cell "8.4"
-				(exclude_from_sim no)
-				(at 349.25 158.75 0)
-				(size 19.05 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "37e32835-ddc8-4220-87a2-889b6543c40c")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 158.75 0)
-				(size 0 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a77ae21c-a898-42ce-b624-68fd97499a2e")
-			)
-			(table_cell "Output Voltage(V)"
-				(exclude_from_sim no)
-				(at 321.31 165.1 0)
-				(size 27.94 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "5d114d5d-a244-40c7-a072-a81bfa6b78a2")
-			)
-			(table_cell "5"
-				(exclude_from_sim no)
-				(at 349.25 165.1 0)
-				(size 19.05 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "39857d8a-f1c6-4a40-8841-5e42cdf7586b")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 165.1 0)
-				(size 0 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "429ae150-1095-48eb-878e-c72ce7e33b9f")
-			)
-			(table_cell "Output Current(A) limit"
-				(exclude_from_sim no)
-				(at 321.31 168.91 0)
-				(size 27.94 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "00fe7189-ea0d-42aa-9678-c78a7a490f79")
-			)
-			(table_cell "6"
-				(exclude_from_sim no)
-				(at 349.25 168.91 0)
-				(size 19.05 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "293e7547-1e51-49b6-accb-c16dac6ab4b4")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 168.91 0)
-				(size 0 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "3849cb46-adcd-4fdb-8683-8827cc4f57da")
-			)
-			(table_cell "Frequency(kHz)"
-				(exclude_from_sim no)
-				(at 321.31 173.99 0)
-				(size 27.94 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "152e6758-379e-49ce-af19-7dc3d35d1887")
-			)
-			(table_cell "516.78"
-				(exclude_from_sim no)
-				(at 349.25 173.99 0)
-				(size 19.05 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f12706c0-ca85-41f2-b267-15f2612b6481")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 173.99 0)
-				(size 0 6.35)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a185a10d-a5da-48c5-987a-f0d9bed367ac")
-			)
-			(table_cell "Input Voltage Ripple(mV)"
-				(exclude_from_sim no)
-				(at 321.31 180.34 0)
-				(size 27.94 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "7edc49f8-d428-4722-aedc-c8da614fc21b")
-			)
-			(table_cell "510.81"
-				(exclude_from_sim no)
-				(at 349.25 180.34 0)
-				(size 19.05 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "59c1bfde-e3e8-43d0-a746-649564e7c218")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 180.34 0)
-				(size 0 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "197bbde5-16b9-4525-a245-8f03f1da6c00")
-			)
-			(table_cell "Output Voltage Ripple(mV)"
-				(exclude_from_sim no)
-				(at 321.31 185.42 0)
-				(size 27.94 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a2ff8adc-39c0-4a6b-a5b9-90a7ecd8c550")
-			)
-			(table_cell "9.18"
-				(exclude_from_sim no)
-				(at 349.25 185.42 0)
-				(size 19.05 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4ba5de95-f12a-498d-acdf-16b23803854b")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 185.42 0)
-				(size 0 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "9a9ba359-1474-4ced-a0de-1a177c21bcfd")
-			)
-			(table_cell "Inductor Peak-Peak Current(A)"
-				(exclude_from_sim no)
-				(at 321.31 190.5 0)
-				(size 27.94 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "9b9f23be-6366-4237-b43b-c289201d46d2")
-			)
-			(table_cell "1.15"
-				(exclude_from_sim no)
-				(at 349.25 190.5 0)
-				(size 19.05 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "c82f293a-4d70-4b24-b20d-d39e3afb8b49")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 190.5 0)
-				(size 0 5.08)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "859ef0b4-9d5f-4b6e-bef2-55570693b7f3")
-			)
-			(table_cell "Efffiency(%)"
-				(exclude_from_sim no)
-				(at 321.31 195.58 0)
-				(size 27.94 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "10548ae8-8e94-4543-a71c-dc3f12709549")
-			)
-			(table_cell "95.1"
-				(exclude_from_sim no)
-				(at 349.25 195.58 0)
-				(size 19.05 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ab4a9eaa-59fe-45fa-b59d-d2c45f129bc8")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 195.58 0)
-				(size 0 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0dfb7be8-7797-4ce4-b8c3-e3b1eb41c5bb")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 321.31 199.39 0)
-				(size 27.94 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "1200df59-db9e-4b88-a63e-6efc53dafd81")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 349.25 199.39 0)
-				(size 19.05 0)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "5097146e-0d98-44a7-811d-fd449516e03a")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 368.3 199.39 0)
 				(size 0 0)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
