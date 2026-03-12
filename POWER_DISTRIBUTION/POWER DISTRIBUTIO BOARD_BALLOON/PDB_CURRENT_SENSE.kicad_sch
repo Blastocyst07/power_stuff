@@ -1161,7 +1161,7 @@
 			)
 		)
 	)
-	(global_label "I2C2_SCL"
+	(global_label "I2C2_SDL"
 		(shape input)
 		(at 130.81 88.9 0)
 		(fields_autoplaced yes)
@@ -1793,7 +1793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBAT_Fused"
+		(property "Value" "VBAT_Fused_OUT"
 			(at 54.61 106.68 0)
 			(effects
 				(font

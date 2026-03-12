@@ -5466,10 +5466,10 @@
 		(uuid "037c13e4-b761-462d-bc3d-ce701fe6569c")
 	)
 	(junction
-		(at 104.14 60.96)
+		(at 176.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12f4f1f9-9109-4188-85ff-f24f04b4083a")
+		(uuid "0ae74797-8651-46e8-8a99-972de461986d")
 	)
 	(junction
 		(at -123.19 252.73)
@@ -5538,12 +5538,6 @@
 		(uuid "312e869b-d04a-4700-9197-928edb914d58")
 	)
 	(junction
-		(at 172.72 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "329461e4-66b8-4729-8f8e-73cf128bafe8")
-	)
-	(junction
 		(at 36.83 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5592,12 +5586,6 @@
 		(uuid "4a0e51de-b63e-4b6f-a962-c8d87c6c75b1")
 	)
 	(junction
-		(at 176.53 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "597f34bb-f0d7-47b5-a231-909d8154b5b5")
-	)
-	(junction
 		(at -166.37 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5614,12 +5602,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63710eb3-61e7-478f-903e-639833e23269")
-	)
-	(junction
-		(at 101.6 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6710f244-40e3-4f8c-a072-a552c884a359")
 	)
 	(junction
 		(at 325.12 24.13)
@@ -5700,12 +5682,6 @@
 		(uuid "9ca0f221-da93-437f-b364-c5262a45460c")
 	)
 	(junction
-		(at 33.02 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3637cd3-b51b-4eb8-bede-650d6040dd75")
-	)
-	(junction
 		(at 325.12 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5754,12 +5730,6 @@
 		(uuid "bdff3222-f55a-4663-99df-1b14b81c24d4")
 	)
 	(junction
-		(at 36.83 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c24a332b-b9d6-4331-b145-92f615dbdaef")
-	)
-	(junction
 		(at 375.92 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5770,12 +5740,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf4ab733-f882-4ed4-a50b-363f73a70962")
-	)
-	(junction
-		(at 34.29 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfaf2852-3514-45b1-b50d-5ddbb928c137")
 	)
 	(junction
 		(at 325.12 57.15)
@@ -5790,10 +5754,10 @@
 		(uuid "e4f7690e-6f8d-4bca-b1c8-50eb46909ced")
 	)
 	(junction
-		(at 30.48 60.96)
+		(at 34.29 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec8db8dd-03a4-4a3d-acc7-8f99454ffa66")
+		(uuid "e8aa8438-08f5-4d24-bb70-d83b6cabdff3")
 	)
 	(junction
 		(at 417.83 132.08)
@@ -6065,16 +6029,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 172.72 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c55f2e6-e2b7-451d-83a4-ffeba4aa4589")
-	)
-	(wire
-		(pts
 			(xy 176.53 53.34) (xy 176.53 59.69)
 		)
 		(stroke
@@ -6095,7 +6049,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 176.53 73.66)
+			(xy 162.56 71.12) (xy 176.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6285,16 +6239,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 175.26) (xy 41.91 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f47bbe-b385-4252-b4c4-17b6949227cf")
-	)
-	(wire
-		(pts
 			(xy 328.93 237.49) (xy 328.93 234.95)
 		)
 		(stroke
@@ -6302,16 +6246,6 @@
 			(type default)
 		)
 		(uuid "19d8007f-e60e-4992-aacc-09f53c8190ac")
-	)
-	(wire
-		(pts
-			(xy 33.02 52.07) (xy 33.02 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ea0e8a-7b8a-4d05-a7b8-c7c220ef982d")
 	)
 	(wire
 		(pts
@@ -6325,16 +6259,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 176.53 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c190a96-dc8d-4349-8440-b15bc7a954c8")
-	)
-	(wire
-		(pts
 			(xy 415.29 59.69) (xy 415.29 57.15)
 		)
 		(stroke
@@ -6342,6 +6266,16 @@
 			(type default)
 		)
 		(uuid "1c703b10-341e-414e-a932-b866f084b19d")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 95.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c8383ca-f757-4450-94e3-f752017b480f")
 	)
 	(wire
 		(pts
@@ -6485,7 +6419,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 68.58) (xy 176.53 73.66)
+			(xy 176.53 68.58) (xy 176.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6582,16 +6516,6 @@
 			(type default)
 		)
 		(uuid "2c6c98e9-c799-4541-869a-ebc5584dc4b5")
-	)
-	(wire
-		(pts
-			(xy 20.32 60.96) (xy 30.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c94be62-a451-4671-9a78-e66c985be2e6")
 	)
 	(wire
 		(pts
@@ -6735,6 +6659,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 60.96) (xy 21.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a09c5e-5f14-4448-87b9-87f87074fe4d")
+	)
+	(wire
+		(pts
 			(xy 332.74 132.08) (xy 327.66 132.08)
 		)
 		(stroke
@@ -6795,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 104.14 60.96)
+			(xy 99.06 60.96) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6855,7 +6789,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 29.21) (xy 29.21 29.21)
+			(xy 33.02 29.21) (xy 21.59 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6895,7 +6829,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 58.42) (xy 33.02 58.42)
+			(xy 27.94 58.42) (xy 35.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6932,16 +6866,6 @@
 			(type default)
 		)
 		(uuid "4967449e-a40a-405e-afdf-8c01acac9e53")
-	)
-	(wire
-		(pts
-			(xy 33.02 52.07) (xy 36.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c1723e9-335f-44df-b7a4-7c20ebf93de3")
 	)
 	(wire
 		(pts
@@ -7015,7 +6939,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 105.41 74.93)
+			(xy 95.25 74.93) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7025,7 +6949,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 186.69) (xy 39.37 186.69)
+			(xy 26.67 186.69) (xy 39.37 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7042,16 +6966,6 @@
 			(type default)
 		)
 		(uuid "53119e50-f95c-4874-b85d-2381fe7d7a03")
-	)
-	(wire
-		(pts
-			(xy 162.56 62.23) (xy 162.56 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5483528f-a8a4-4879-b57c-7891883d4003")
 	)
 	(wire
 		(pts
@@ -7125,7 +7039,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 62.23) (xy 172.72 62.23)
+			(xy 162.56 62.23) (xy 176.53 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7142,16 +7056,6 @@
 			(type default)
 		)
 		(uuid "5cd662e7-7646-41a2-8023-0f2a8786ae55")
-	)
-	(wire
-		(pts
-			(xy 91.44 63.5) (xy 101.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de48738-1373-4b8d-95d3-8035f0d780dc")
 	)
 	(wire
 		(pts
@@ -7215,13 +7119,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 109.22 53.34)
+			(xy 176.53 71.12) (xy 176.53 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "630ef03b-c8a7-46a1-9a56-8d550f4c5ad3")
+		(uuid "6244abd9-7b72-4f5a-8c65-83070847e989")
 	)
 	(wire
 		(pts
@@ -7235,7 +7139,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 38.1) (xy 29.21 41.91)
+			(xy 21.59 38.1) (xy 21.59 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7252,16 +7156,6 @@
 			(type default)
 		)
 		(uuid "64055c8f-a258-4ca5-81bd-a1498510fa9b")
-	)
-	(wire
-		(pts
-			(xy 20.32 60.96) (xy 20.32 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6431070b-2ae9-4696-9b0a-8d939e98ffeb")
 	)
 	(wire
 		(pts
@@ -7335,16 +7229,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 91.44 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69bf0d27-f2f2-47f7-b2d4-2b6b7f904d39")
-	)
-	(wire
-		(pts
 			(xy 176.53 53.34) (xy 184.15 53.34)
 		)
 		(stroke
@@ -7415,16 +7299,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 186.69) (xy 36.83 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c03f9ac-74bb-475b-abc3-70cd6cb694c2")
-	)
-	(wire
-		(pts
 			(xy 34.29 146.05) (xy 34.29 157.48)
 		)
 		(stroke
@@ -7452,16 +7326,6 @@
 			(type default)
 		)
 		(uuid "6e40df5b-78ba-493d-a00f-c82687c72d96")
-	)
-	(wire
-		(pts
-			(xy 172.72 62.23) (xy 176.53 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e88c84d-b23f-46e9-ad53-460aecc9a35d")
 	)
 	(wire
 		(pts
@@ -7565,7 +7429,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 101.6 74.93)
+			(xy 95.25 73.66) (xy 95.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7725,7 +7589,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 29.21) (xy 29.21 30.48)
+			(xy 21.59 29.21) (xy 21.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7735,7 +7599,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 72.39) (xy 34.29 72.39)
+			(xy 21.59 72.39) (xy 34.29 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7815,7 +7679,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 41.91) (xy 33.02 41.91)
+			(xy 21.59 41.91) (xy 33.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7902,16 +7766,6 @@
 			(type default)
 		)
 		(uuid "8de3e79e-dcea-4b48-816e-f99bf4c2299a")
-	)
-	(wire
-		(pts
-			(xy 101.6 63.5) (xy 105.41 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e191fe7-6b29-448f-8d93-0a3ca4ea0cd8")
 	)
 	(wire
 		(pts
@@ -8115,33 +7969,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 58.42) (xy 35.56 58.42)
+			(xy 162.56 63.5) (xy 162.56 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0b15f99-a4e1-48e7-b79e-39bda72891f4")
-	)
-	(wire
-		(pts
-			(xy 36.83 175.26) (xy 36.83 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12e52ec-817a-49d8-a557-6eb3881a7c96")
-	)
-	(wire
-		(pts
-			(xy 104.14 60.96) (xy 106.68 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a357ab-7d19-48e5-8b2b-29de6b95642d")
+		(uuid "a0f0f894-4cf3-4958-8b7e-5291e32e9589")
 	)
 	(wire
 		(pts
@@ -8225,16 +8059,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 30.48 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa1e5c6e-2ddf-4623-9819-955f28a117f2")
-	)
-	(wire
-		(pts
 			(xy -110.49 260.35) (xy -123.19 260.35)
 		)
 		(stroke
@@ -8282,16 +8106,6 @@
 			(type default)
 		)
 		(uuid "ae0f38a6-ca15-4ff5-ae17-b60afa5086e2")
-	)
-	(wire
-		(pts
-			(xy 30.48 60.96) (xy 34.29 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1f1a93-9174-4bc7-bc50-0d464821be5c")
 	)
 	(wire
 		(pts
@@ -8475,16 +8289,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 104.14 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23e07b3-b7fc-4bd2-9b7b-f174e06e5d0d")
-	)
-	(wire
-		(pts
 			(xy 363.22 217.17) (xy 363.22 214.63)
 		)
 		(stroke
@@ -8492,6 +8296,16 @@
 			(type default)
 		)
 		(uuid "c3e40dd6-54c5-4813-baac-286f517ae6a9")
+	)
+	(wire
+		(pts
+			(xy 95.25 63.5) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c445a988-4d83-4c3b-9f51-a0788b7ae825")
 	)
 	(wire
 		(pts
@@ -9055,6 +8869,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 60.96) (xy 21.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33dbf3a-4e57-49b2-bb57-7a7d976d3ef7")
+	)
+	(wire
+		(pts
 			(xy -119.38 114.3) (xy -119.38 116.84)
 		)
 		(stroke
@@ -9172,16 +8996,6 @@
 			(type default)
 		)
 		(uuid "fdcf1cd5-dcbf-471f-bdbb-265a64c184c5")
-	)
-	(wire
-		(pts
-			(xy 36.83 175.26) (xy 41.91 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff27395e-0274-40d7-a8bb-758f0f7f07cf")
 	)
 	(table
 		(column_count 3)
@@ -10047,6 +9861,16 @@
 			)
 		)
 	)
+	(label "BAS_IN"
+		(at 30.48 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c9911b6-ed50-4208-a812-792fd5ffc478")
+	)
 	(label "PGM_RX"
 		(at 121.92 110.49 0)
 		(effects
@@ -10639,7 +10463,7 @@
 			)
 		)
 	)
-	(global_label "PYR_1"
+	(global_label "PYR_2"
 		(shape input)
 		(at 161.29 29.21 180)
 		(fields_autoplaced yes)
@@ -13009,7 +12833,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAS21")
-		(at 30.48 64.77 90)
+		(at 21.59 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13018,7 +12842,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ccfeb2f-c037-479f-b140-826070cc23e4")
 		(property "Reference" "D10"
-			(at 27.94 66.0401 90)
+			(at 24.13 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +12851,7 @@
 			)
 		)
 		(property "Value" "BAS21"
-			(at 27.94 63.5001 90)
+			(at 24.13 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,7 +12860,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 34.925 64.77 0)
+			(at 17.145 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +12869,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
-			(at 30.48 64.77 0)
+			(at 21.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +12878,7 @@
 			)
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
-			(at 30.48 64.77 0)
+			(at 21.59 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14319,125 +14143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "samac_sys:S2761-46R")
-		(at 41.91 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aa86343-5a83-4308-9d80-0ec77601fce3")
-		(property "Reference" "TP31"
-			(at 58.42 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 58.42 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 58.42 271.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 58.42 371.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 58.42 571.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 58.42 671.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 58.42 771.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 58.42 871.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 58.42 971.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f496ef32-894b-4fcd-9a44-ca297b321171")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "samac_sys:43650-0211")
 		(at 306.07 210.82 0)
 		(unit 1)
@@ -14751,72 +14456,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 162.56 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e239c99-788d-4c1f-8f46-1df31bd18dc6")
-		(property "Reference" "#PWR0221"
-			(at 162.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8344037c-e8fd-4b31-b8a5-82dbf9aea5b3")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -17984,125 +17623,6 @@
 	)
 	(symbol
 		(lib_id "samac_sys:S2761-46R")
-		(at 109.22 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a2b060-2b5f-4870-9bbe-24d8e65efa93")
-		(property "Reference" "TP26"
-			(at 125.73 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 125.73 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 125.73 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 125.73 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 109.22 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 125.73 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 125.73 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 125.73 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 125.73 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 125.73 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09210b92-e1dd-4395-a62c-a847a3cb508a")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "samac_sys:S2761-46R")
 		(at 36.83 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18215,125 +17735,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "samac_sys:S2761-46R")
-		(at 36.83 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "899c2872-2aeb-4913-b3ab-9a3460598b46")
-		(property "Reference" "TP25"
-			(at 53.34 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 53.34 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 53.34 146.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 53.34 246.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 36.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 53.34 446.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 53.34 546.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 53.34 646.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 53.34 746.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 53.34 846.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60e660df-a81b-4f54-b8f8-8463610a5fd6")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -18734,7 +18135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBAT+"
+		(property "Value" "VBAT_Fused_OUT"
 			(at 115.062 38.862 0)
 			(effects
 				(font
@@ -19615,7 +19016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -21648,72 +21049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 20.32 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b257c89d-3305-4a60-988b-5b7ee423d0b7")
-		(property "Reference" "#PWR0146"
-			(at 20.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8dba99e-7543-4589-872c-337965660ac6")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at -166.37 167.64 180)
 		(unit 1)
@@ -22115,7 +21450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBAT+"
+		(property "Value" "VBAT_Fused_OUT"
 			(at 159.512 38.862 0)
 			(effects
 				(font
@@ -22957,72 +22292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 91.44 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2a985c9-21fb-4e10-b3bc-8d6cd562eb7d")
-		(property "Reference" "#PWR0218"
-			(at 91.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20279a6c-63a5-4520-bc36-f86a2054580d")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:0154010.DR")
 		(at -160.02 66.04 0)
 		(unit 1)
@@ -23725,7 +22994,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAS21")
-		(at 29.21 34.29 90)
+		(at 21.59 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23734,7 +23003,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7440526-a2d5-4b6b-aafc-337c955701ef")
 		(property "Reference" "D8"
-			(at 26.67 35.5601 90)
+			(at 24.13 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23743,7 +23012,7 @@
 			)
 		)
 		(property "Value" "BAS21"
-			(at 26.67 33.0201 90)
+			(at 24.13 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23752,7 +23021,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 33.655 34.29 0)
+			(at 17.145 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23761,7 +23030,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
-			(at 29.21 34.29 0)
+			(at 21.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23770,7 +23039,7 @@
 			)
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
-			(at 29.21 34.29 0)
+			(at 21.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24736,7 +24005,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAS21")
-		(at 101.6 67.31 90)
+		(at 95.25 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24745,7 +24014,7 @@
 		(fields_autoplaced yes)
 		(uuid "d276a53e-a9a5-4bac-8243-850a1baf6f6c")
 		(property "Reference" "D12"
-			(at 99.06 68.5801 90)
+			(at 97.79 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24754,7 +24023,7 @@
 			)
 		)
 		(property "Value" "BAS21"
-			(at 99.06 66.0401 90)
+			(at 97.79 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24763,7 +24032,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 106.045 67.31 0)
+			(at 90.805 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24772,7 +24041,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
-			(at 101.6 67.31 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24781,7 +24050,7 @@
 			)
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
-			(at 101.6 67.31 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25201,7 +24470,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAS21")
-		(at 172.72 66.04 90)
+		(at 162.56 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25210,7 +24479,7 @@
 		(fields_autoplaced yes)
 		(uuid "d660eed1-5005-44ee-a069-37dbf9984a0b")
 		(property "Reference" "D13"
-			(at 170.18 67.3101 90)
+			(at 165.1 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25219,7 +24488,7 @@
 			)
 		)
 		(property "Value" "BAS21"
-			(at 170.18 64.7701 90)
+			(at 165.1 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25228,7 +24497,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 177.165 66.04 0)
+			(at 158.115 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25237,7 +24506,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
-			(at 172.72 66.04 0)
+			(at 162.56 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25246,7 +24515,7 @@
 			)
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
-			(at 172.72 66.04 0)
+			(at 162.56 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
