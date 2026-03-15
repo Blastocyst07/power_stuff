@@ -30818,6 +30818,22 @@
 		(uuid "5a115fbf-8490-4924-8e83-190e6dc795f7")
 	)
 	(segment
+		(start 183.374 86.124)
+		(end 183.374 87.2)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "7db8f7d5-d410-4fa1-83d8-eab97d4271d3")
+	)
+	(segment
+		(start 182.9405 86)
+		(end 183.25 86)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "957d2b6c-1ba3-4e38-b2fc-c891812b9d2c")
+	)
+	(segment
 		(start 175.737 93.225)
 		(end 175.737 91.968043)
 		(width 0.254)
@@ -30842,6 +30858,14 @@
 		(uuid "ba52594c-913f-4adf-82e0-c31327d626ce")
 	)
 	(segment
+		(start 183.25 86)
+		(end 183.374 86.124)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "ceec7e3c-9d59-4f42-a68f-68087e731644")
+	)
+	(segment
 		(start 177.925043 89.78)
 		(end 177.933914 89.78)
 		(width 0.254)
@@ -30859,7 +30883,7 @@
 		(uuid "a974dcf0-8aa4-4e25-8cd9-57662b052de7")
 	)
 	(via
-		(at 183.374 87.2)
+		(at 182.9405 86)
 		(size 0.61)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -30867,12 +30891,20 @@
 		(uuid "b823bcf1-fd4a-45eb-98ce-f1e2df687a45")
 	)
 	(segment
-		(start 183.374 87.2)
+		(start 182.05 86.7)
 		(end 182.05 87.2)
 		(width 0.254)
 		(layer "B.Cu")
 		(net 11)
-		(uuid "2d432d2f-33bc-4281-a3e1-0d64bed360bd")
+		(uuid "0804c04c-96dc-40d9-8943-8bd0b3a5cd01")
+	)
+	(segment
+		(start 182.9405 86)
+		(end 182.75 86)
+		(width 0.254)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "1fe00795-5fb3-4af2-8b59-c7ac13e56b2d")
 	)
 	(segment
 		(start 181.359917 87.890083)
@@ -30880,7 +30912,7 @@
 		(width 0.254)
 		(layer "B.Cu")
 		(net 11)
-		(uuid "d69f2075-b9e2-4a83-a0bd-356407524d7c")
+		(uuid "9c70ca63-9742-4c40-b31b-c526c2b1ee59")
 	)
 	(segment
 		(start 182.05 87.2)
@@ -30888,7 +30920,15 @@
 		(width 0.254)
 		(layer "B.Cu")
 		(net 11)
-		(uuid "f17a3822-8b99-483f-b896-124bcbd6685f")
+		(uuid "c2121c0a-8a12-4e20-a311-7b19868491f0")
+	)
+	(segment
+		(start 182.75 86)
+		(end 182.05 86.7)
+		(width 0.254)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "d377cb2e-e685-4311-8e77-2acbec7640ab")
 	)
 	(segment
 		(start 177.862 99.6625)
@@ -33379,7 +33419,7 @@
 		(polygon
 			(pts
 				(xy 179.2 98.45) (xy 179.2 97.05) (xy 179.8 96.25) (xy 179.8 90.05) (xy 178.2 90.05) (xy 178.079992 90.05)
-				(xy 177 90.949993) (xy 177 98.45) (xy 178.4 98.45) (xy 178.4 98.45)
+				(xy 177 90.949993) (xy 177 98.45) (xy 178.4 98.45)
 			)
 		)
 		(filled_polygon
