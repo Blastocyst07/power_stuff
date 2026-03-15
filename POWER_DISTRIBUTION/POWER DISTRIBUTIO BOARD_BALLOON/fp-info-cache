@@ -1,4 +1,4 @@
-26422727830089810
+26467060823524866
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96452,6 +96452,181 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SamacSys_COMMS
+691412320002
+691412320002-1
+Connector
+0
+2
+2
+SamacSys_COMMS
+212528-02YY_Oct22
+212528-02YY_Oct22
+Connector
+0
+2
+2
+SamacSys_COMMS
+215760-YY02
+215760-YY02
+Connector
+0
+2
+2
+SamacSys_COMMS
+ABLSG
+ABLSG
+Crystal or Oscillator
+0
+3
+3
+SamacSys_COMMS
+BEADC0603X33N
+0.6mmX0.3mm
+Filter
+0
+2
+2
+SamacSys_COMMS
+BEADC2012X105N
+0805-3
+Ferrite Bead
+0
+2
+2
+SamacSys_COMMS
+BGA9C40P3X3_128X128X54
+9-WLCSP (1.28x1.28)
+Integrated Circuit
+0
+9
+9
+SamacSys_COMMS
+DLW5BSN302SQ2L
+DLW5AT L=5.0±0.3 W=3.6±0.3 T=2.2±0.15
+Filter
+0
+8
+8
+SamacSys_COMMS
+LFCN160
+LFCN-160+-2
+Filter
+0
+4
+4
+SamacSys_COMMS
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_COMMS
+OS102011MA1QN1
+OS102011MA1QN1
+Switch
+0
+5
+5
+SamacSys_COMMS
+PESD5V0H1BSFYL
+SOD962-2_1
+TVS Diode (Bi-directional)
+0
+2
+2
+SamacSys_COMMS
+PMEG3005AESFYL
+SOD962-2
+Diode ESD (Bi-directional)
+0
+2
+2
+SamacSys_COMMS
+SM04B-GHS-TB
+SM04B-GHS-TB
+Connector
+0
+6
+6
+SamacSys_COMMS
+SOIC127P600X175-8N
+8 lead sop
+MOSFET (N-Channel)
+0
+8
+8
+SamacSys_COMMS
+SOIC127P600X175-14N
+D (-R-PDSO-G14)_1
+Integrated Circuit
+0
+14
+14
+SamacSys_COMMS
+SOIC127P1032X265-18N
+18-l soic
+Integrated Circuit
+0
+18
+18
+SamacSys_COMMS
+SOP65P400X130-8N
+DCT0008A_2025
+Integrated Circuit
+0
+8
+8
+SamacSys_COMMS
+SOP65P640X120-17N
+PWP0016M
+Integrated Circuit
+0
+17
+17
+SamacSys_COMMS
+SOT65P210X110-3N
+SOT323/SC-70
+Diode
+0
+3
+3
+SamacSys_COMMS
+SOT65P280X110-8N
+DDF0008A
+Integrated Circuit
+0
+8
+8
+SamacSys_COMMS
+SOT95P280X145-5N
+SOT23
+Power Supply
+0
+5
+5
+SamacSys_COMMS
+TPS22997RYZR
+TPS22997RYZR-1
+Integrated Circuit
+0
+10
+10
+SamacSys_COMMS
+TSR22450N
+3-SIP
+Power Supply
+0
+3
+3
+SamacSys_COMMS
+WE-CNSW_08058
+WE-CNSW_08058
+Inductor
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
