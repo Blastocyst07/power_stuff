@@ -30,7 +30,7 @@
   (pad 3 smd rect (at -1.25 0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.25 0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers F.Cu F.Paste F.Mask))
-  (model "D:\\KiCad\\PROJECT_SIGMA\\STATE ESTIMATION\\POWER_DISTRIBUTION\\SAMACSYS_LIB_PDB\\SamacSys_Parts.3dshapes\\TLV75733PDBVR.stp"
+  (model "C:\\Users\\alvin\\Desktop\\New folder\\power_stuff\\SAMACSYS_LIB_PDB\\SamacSys_Parts.3dshapes\\TLV75733PDBVR.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

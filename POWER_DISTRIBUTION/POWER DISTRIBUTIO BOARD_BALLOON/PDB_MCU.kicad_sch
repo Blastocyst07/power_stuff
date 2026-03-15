@@ -1460,6 +1460,10 @@
 		(uuid "2369c30c-8ee9-40b6-9d8d-955ac13626f4")
 	)
 	(no_connect
+		(at 43.18 60.96)
+		(uuid "3cb4aaa9-fed7-4215-a701-88b1f25f39a7")
+	)
+	(no_connect
 		(at 73.66 58.42)
 		(uuid "45b5d41e-dd6f-4d66-830f-669f215f77d9")
 	)
@@ -1474,6 +1478,10 @@
 	(no_connect
 		(at 73.66 68.58)
 		(uuid "aae65e84-24cf-471f-ba9a-78a6fdfc34c8")
+	)
+	(no_connect
+		(at 43.18 58.42)
+		(uuid "b35ac3a2-c05a-4cc8-98a4-0df506eb55f7")
 	)
 	(no_connect
 		(at 73.66 71.12)
@@ -1949,7 +1957,7 @@
 			)
 		)
 	)
-	(global_label "CAM_SWITCH"
+	(global_label "HEATER_EN"
 		(shape input)
 		(at 73.66 99.06 0)
 		(fields_autoplaced yes)
@@ -1961,7 +1969,7 @@
 		)
 		(uuid "7491cb07-ffae-471e-9388-07fcc960fe71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.2566 99.06 0)
+			(at 87.047 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

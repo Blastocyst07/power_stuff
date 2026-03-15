@@ -1549,7 +1549,7 @@
 			)
 		)
 	)
-	(global_label "CAN_RX_FILT_1"
+	(global_label "CAN_TX"
 		(shape input)
 		(at 87.63 38.1 180)
 		(fields_autoplaced yes)
@@ -1561,7 +1561,7 @@
 		)
 		(uuid "73c54a86-d53c-4a47-a5b7-6002921638b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.6748 38.1 0)
+			(at 77.811 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_FILT_1"
+	(global_label "CAN_RX"
 		(shape input)
 		(at 87.63 45.72 180)
 		(fields_autoplaced yes)
@@ -1605,7 +1605,7 @@
 		)
 		(uuid "93985b6c-3d05-40e7-aaaf-3d5881fc7470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.9772 45.72 0)
+			(at 77.5086 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

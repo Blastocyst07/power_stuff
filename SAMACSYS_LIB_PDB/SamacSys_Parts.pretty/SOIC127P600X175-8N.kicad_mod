@@ -33,7 +33,7 @@
   (pad 6 smd rect (at 2.625 0.635 90) (size 0.65 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 2.625 -0.635 90) (size 0.65 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.625 -1.905 90) (size 0.65 1.8) (layers F.Cu F.Paste F.Mask))
-  (model "D:\\KiCad\\PROJECT_SIGMA\\STATE ESTIMATION\\POWER_DISTRIBUTION\\power_stuff\\SAMACSYS_LIB_PDB\\SamacSys_Parts.3dshapes\\RSS070N05HZGTB.stp"
+  (model "C:\\Users\\alvin\\Desktop\\New folder\\power_stuff\\SAMACSYS_LIB_PDB\\SamacSys_Parts.3dshapes\\RSS070N05HZGTB.stp"
     (at (xyz 0.0059055120456876 0 0.064960628982604))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
