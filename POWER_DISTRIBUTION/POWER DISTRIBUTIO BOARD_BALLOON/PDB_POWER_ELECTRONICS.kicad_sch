@@ -7542,7 +7542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_COMMS:BEADC2012X105N"
+		(property "Footprint" "SamacSys_Parts:BEADC2012X105N"
 			(at 186.69 178.74 0)
 			(effects
 				(font
@@ -12087,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_COMMS:SOT95P280X145-5N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
 			(at 129.54 176.2 0)
 			(effects
 				(font
