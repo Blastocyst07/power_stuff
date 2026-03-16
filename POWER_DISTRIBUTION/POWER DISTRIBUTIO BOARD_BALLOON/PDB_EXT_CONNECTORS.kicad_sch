@@ -170,6 +170,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1206,6 +1313,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BAS21"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAS21"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAS21_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAS21_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -1643,218 +1918,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_COMMS:SSC53L-E3_57T"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SSC53L-E3_57T"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DIOM7959X262N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.62"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SSC53L-E3/57T"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "625-SSC53L-E3"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "SSC53L-E3/57T"
-				(at 11.43 -897.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssc53l-e357t/vishay?utm_currency=USD&region=nac"
-				(at 11.43 -997.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SSC53L-E3_57T_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5445,7 +5508,7 @@
 	)
 	(text "SILKSCREEN: MOD2\n"
 		(exclude_from_sim no)
-		(at 138.684 64.262 0)
+		(at 127.254 61.722 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5516,7 +5579,7 @@
 		(uuid "05ff03f0-852f-4423-bfb1-07aa2478d392")
 	)
 	(junction
-		(at 24.13 41.91)
+		(at 24.13 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "079b70a2-e3ab-466e-a2c9-9144138dba25")
@@ -5577,10 +5640,14 @@
 	)
 	(junction
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(at 176.53 72.39)
+=======
+		(at 21.59 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "355834a4-047f-408f-8ebc-5e116750acd9")
+		(uuid "34ed5a8c-3c3c-4552-98dc-793424392e40")
 	)
 	(junction
 =======
@@ -5615,16 +5682,22 @@
 		(uuid "3f467aac-1805-4447-9599-bd69d6dad41d")
 	)
 	(junction
+		(at 34.29 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42652f6b-b384-4fe4-b30e-f32e2b5b0254")
+	)
+	(junction
+		(at 168.91 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4384a9a3-3923-4992-a485-4489cf0254f7")
+	)
+	(junction
 		(at -168.91 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a0e51de-b63e-4b6f-a962-c8d87c6c75b1")
-	)
-	(junction
-		(at 22.86 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fd7dd18-429d-46e8-b540-3d87ab104fc8")
 	)
 	(junction
 		(at -166.37 248.92)
@@ -5639,6 +5712,12 @@
 		(uuid "5e121b39-bf3f-4b1e-a9e4-2c434c5965e6")
 	)
 	(junction
+		(at 162.56 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6426051e-bd5a-4db4-accc-4eeadaaca868")
+	)
+	(junction
 		(at 325.12 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5649,12 +5728,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5cdbcb-6ec1-4955-b559-eeec65f81430")
-	)
-	(junction
-		(at 24.13 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f867b69-ee74-4eb0-9493-0241bcb8a8eb")
 	)
 	(junction
 		(at -72.39 66.04)
@@ -5687,10 +5760,10 @@
 		(uuid "8ceece65-41a5-45b9-b32e-275013db78eb")
 	)
 	(junction
-		(at 93.98 60.96)
+		(at 176.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f521e89-8af9-4f48-89de-305af992ae02")
+		(uuid "8f286b4b-2812-4dab-8858-64f647431180")
 	)
 	(junction
 		(at -104.14 156.21)
@@ -5771,12 +5844,13 @@
 		(uuid "b99bb29f-f6aa-4507-9de3-b20719c49acf")
 	)
 	(junction
-		(at 105.41 74.93)
+		(at 93.98 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf921ff-f85c-41f3-932d-5b0c7edee580")
 	)
 	(junction
+<<<<<<< HEAD
 <<<<<<< HEAD
 		(at 34.29 72.39)
 =======
@@ -5788,9 +5862,12 @@
 	(junction
 		(at 24.13 26.67)
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+		(at 24.13 26.67)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6c5553a-09d5-4002-897f-d9bd1bfd9f43")
+		(uuid "c669759e-b2e6-49e6-9b43-78ba68836f96")
 	)
 	(junction
 		(at 375.92 132.08)
@@ -5811,6 +5888,7 @@
 		(uuid "e2c261a5-8f2f-4224-b042-70eccc1a8a77")
 	)
 	(junction
+<<<<<<< HEAD
 		(at 176.53 59.69)
 <<<<<<< HEAD
 =======
@@ -5821,9 +5899,12 @@
 	(junction
 		(at 96.52 60.96)
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+		(at 85.09 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4f7690e-6f8d-4bca-b1c8-50eb46909ced")
+		(uuid "ea32e2af-61c3-4ec0-8e7d-1421cb256f6a")
 	)
 	(junction
 		(at 417.83 132.08)
@@ -5842,12 +5923,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6e583d2-f031-496f-9da7-61f92bbb7a2b")
-	)
-	(junction
-		(at 162.56 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff87f1db-6fed-458b-99fb-506eb570476c")
 	)
 	(junction
 		(at 325.12 26.67)
@@ -6102,6 +6177,7 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 96.52 74.93) (xy 96.52 77.47)
 		)
 		(stroke
@@ -6124,6 +6200,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 325.12 83.82) (xy 328.93 83.82)
 		)
 		(stroke
@@ -6131,6 +6209,16 @@
 			(type default)
 		)
 		(uuid "0ec55dd2-1040-4900-8ded-9ddf751c58f5")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 176.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efd227a-e793-40b4-bc68-887cb5dbab19")
 	)
 	(wire
 		(pts
@@ -6205,6 +6293,7 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 34.29 73.66) (xy 34.29 72.39)
 =======
 			(xy 34.29 73.66) (xy 34.29 64.77)
@@ -6218,6 +6307,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 417.83 130.81) (xy 417.83 132.08)
 		)
 		(stroke
@@ -6228,13 +6319,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 55.88) (xy 93.98 60.96)
+			(xy 34.29 60.96) (xy 34.29 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1437b785-8ecb-4a7e-8eb4-13f9228dd08d")
+		(uuid "135578cd-7bdd-4998-8a3e-aad69e08e1db")
 	)
 	(wire
 		(pts
@@ -6245,16 +6336,6 @@
 			(type default)
 		)
 		(uuid "15b8b6ac-559f-46dd-8965-bfd3fea4c9b5")
-	)
-	(wire
-		(pts
-			(xy 176.53 59.69) (xy 177.8 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169b5661-687b-4bfc-a60f-d5b0a5d90c59")
 	)
 	(wire
 		(pts
@@ -6298,13 +6379,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 105.41 74.93)
+			(xy 168.91 59.69) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18f2cfaf-0c25-48c4-aebe-d777247ca5a1")
+		(uuid "18c5bc26-77a0-47db-aae2-98de8eb4ea2a")
 	)
 	(wire
 		(pts
@@ -6358,16 +6439,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 55.88) (xy 17.78 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7f6c81-6845-4873-bf04-d2cd2592e352")
-	)
-	(wire
-		(pts
 			(xy 19.05 162.56) (xy 46.99 162.56)
 		)
 		(stroke
@@ -6408,7 +6479,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 106.68 63.5)
+			(xy 93.98 60.96) (xy 95.25 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6479,8 +6550,12 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 21.59 57.15) (xy 27.94 57.15)
+=======
+			(xy 21.59 58.42) (xy 35.56 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		)
 		(stroke
 			(width 0)
@@ -6490,7 +6565,10 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -83.82 68.58) (xy -72.39 68.58)
 		)
 		(stroke
@@ -6621,16 +6699,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 176.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33cabe46-c03e-462a-9432-dbbd1514a2c9")
-	)
-	(wire
-		(pts
 			(xy 19.05 125.73) (xy 19.05 127)
 		)
 		(stroke
@@ -6711,16 +6779,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 77.47) (xy 93.98 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3805daca-d4b3-45ce-b2d8-d5b4150e51f9")
-	)
-	(wire
-		(pts
 			(xy 332.74 132.08) (xy 327.66 132.08)
 		)
 		(stroke
@@ -6741,7 +6799,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 29.21) (xy 34.29 41.91)
+			(xy 34.29 29.21) (xy 34.29 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6761,7 +6819,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 26.67) (xy 24.13 26.67)
+			(xy 24.13 26.67) (xy 36.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6882,6 +6940,7 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 17.78 57.15) (xy 22.86 57.15)
 =======
 			(xy 17.78 57.15) (xy 21.59 57.15)
@@ -6895,6 +6954,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -104.14 163.83) (xy -105.41 163.83)
 		)
 		(stroke
@@ -6932,16 +6993,6 @@
 			(type default)
 		)
 		(uuid "4cbfdb37-5fc5-4bb5-bdc5-b0666edd0ef3")
-	)
-	(wire
-		(pts
-			(xy 22.86 57.15) (xy 27.94 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4db3b5af-5d80-4cec-a220-a368042bb97d")
 	)
 	(wire
 		(pts
@@ -7005,7 +7056,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 74.93) (xy 105.41 74.93)
+			(xy 85.09 67.31) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7062,16 +7113,6 @@
 			(type default)
 		)
 		(uuid "55c9f8a2-afe5-43fb-98ad-d00df5046efe")
-	)
-	(wire
-		(pts
-			(xy 34.29 60.96) (xy 34.29 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5782f3ef-ea48-41f4-9e00-1c6ff84dd987")
 	)
 	(wire
 		(pts
@@ -7176,8 +7217,12 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 176.53 71.12) (xy 176.53 74.93)
+=======
+			(xy 176.53 71.12) (xy 176.53 72.39)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		)
 		(stroke
 			(width 0)
@@ -7187,6 +7232,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 34.29 60.96) (xy 34.29 64.77)
 		)
 		(stroke
@@ -7198,6 +7244,8 @@
 	(wire
 		(pts
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 323.85 109.22) (xy 330.2 109.22)
 		)
 		(stroke
@@ -7208,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 39.37) (xy 24.13 41.91)
+			(xy 24.13 34.29) (xy 24.13 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7258,23 +7306,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 45.72) (xy 21.59 45.72)
+			(xy 24.13 40.64) (xy 21.59 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6704ef00-f34e-41b6-8ad4-dbc5048dd565")
-	)
-	(wire
-		(pts
-			(xy 162.56 74.93) (xy 172.72 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67361bc3-4d3b-4833-98e1-8444b9b12447")
 	)
 	(wire
 		(pts
@@ -7315,16 +7353,6 @@
 			(type default)
 		)
 		(uuid "6943b89b-6007-4652-a305-0a22ffe869f1")
-	)
-	(wire
-		(pts
-			(xy 176.53 53.34) (xy 184.15 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69fced63-d602-4e16-b5b6-09dfe3359dfe")
 	)
 	(wire
 		(pts
@@ -7399,8 +7427,12 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 162.56 59.69) (xy 176.53 59.69)
+=======
+			(xy 162.56 59.69) (xy 168.91 59.69)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		)
 		(stroke
 			(width 0)
@@ -7410,7 +7442,10 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -72.39 66.04) (xy -72.39 64.77)
 		)
 		(stroke
@@ -7438,6 +7473,16 @@
 			(type default)
 		)
 		(uuid "6eb0854c-37a6-42db-a51e-af7a114b2048")
+	)
+	(wire
+		(pts
+			(xy 162.56 59.69) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2bb2f4-397c-4594-ac95-2ba5c6811f4a")
 	)
 	(wire
 		(pts
@@ -7591,7 +7636,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 105.41 74.93)
+			(xy 93.98 60.96) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7681,7 +7726,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 62.23) (xy 176.53 72.39)
+			(xy 176.53 62.23) (xy 176.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7691,7 +7736,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 41.91) (xy 24.13 45.72)
+			(xy 24.13 36.83) (xy 24.13 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7722,8 +7767,11 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 22.86 72.39) (xy 34.29 72.39)
 =======
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 24.13 29.21) (xy 24.13 26.67)
 		)
 		(stroke
@@ -7734,8 +7782,12 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 21.59 64.77) (xy 34.29 64.77)
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+			(xy 21.59 67.31) (xy 34.29 67.31)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		)
 		(stroke
 			(width 0)
@@ -7822,6 +7874,16 @@
 			(type default)
 		)
 		(uuid "88389814-2322-4f67-b7cd-af229684b989")
+	)
+	(wire
+		(pts
+			(xy 21.59 59.69) (xy 21.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885ac4eb-979f-4b13-8487-6034fc7ced4a")
 	)
 	(wire
 		(pts
@@ -7935,6 +7997,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 26.67) (xy 24.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9309709d-8748-480e-ac53-4648c38b9539")
+	)
+	(wire
+		(pts
 			(xy 325.12 43.18) (xy 326.39 43.18)
 		)
 		(stroke
@@ -7962,16 +8034,6 @@
 			(type default)
 		)
 		(uuid "93dbdf75-f0d2-479a-8b68-1422ac20d7e9")
-	)
-	(wire
-		(pts
-			(xy 172.72 72.39) (xy 176.53 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9412d539-c3c4-464f-ab97-eb1899e4e84d")
 	)
 	(wire
 		(pts
@@ -8115,16 +8177,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 58.42) (xy 157.48 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30d7841-6766-4678-80c4-3d3f47908ac6")
-	)
-	(wire
-		(pts
 			(xy 328.93 118.11) (xy 323.85 118.11)
 		)
 		(stroke
@@ -8185,16 +8237,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 162.56 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3c6a88-ca63-44ef-9554-5f2b2e838b36")
-	)
-	(wire
-		(pts
 			(xy 31.75 82.55) (xy 35.56 82.55)
 		)
 		(stroke
@@ -8202,16 +8244,6 @@
 			(type default)
 		)
 		(uuid "ac39dba7-8ec0-4be3-94e2-d39ef649b502")
-	)
-	(wire
-		(pts
-			(xy 27.94 57.15) (xy 27.94 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc9d5fb-7533-44ac-a8f8-1e2c25692204")
 	)
 	(wire
 		(pts
@@ -8335,7 +8367,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 41.91) (xy 24.13 41.91)
+			(xy 34.29 36.83) (xy 24.13 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8392,6 +8424,16 @@
 			(type default)
 		)
 		(uuid "badc3986-933a-4be1-a160-e6590f231857")
+	)
+	(wire
+		(pts
+			(xy 21.59 55.88) (xy 21.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcdc4c3-22d9-4afe-852e-aab4c506b5f9")
 	)
 	(wire
 		(pts
@@ -8485,6 +8527,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 27.94 58.42) (xy 35.56 58.42)
 		)
 		(stroke
@@ -8508,6 +8551,8 @@
 		(pts
 =======
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 375.92 132.08) (xy 381 132.08)
 		)
 		(stroke
@@ -8599,16 +8644,20 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 93.98 60.96) (xy 106.68 60.96)
 =======
 			(xy 96.52 60.96) (xy 96.52 62.23)
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+			(xy 85.09 58.42) (xy 85.09 59.69)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d463f8e3-4d94-4baa-ab17-0716ef8c0163")
+		(uuid "d441566c-5cbb-4ca0-bd00-bbe0b69afac4")
 	)
 	(wire
 		(pts
@@ -9053,8 +9102,12 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 96.52 60.96) (xy 106.68 60.96)
+=======
+			(xy 85.09 58.42) (xy 95.25 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		)
 		(stroke
 			(width 0)
@@ -9064,7 +9117,10 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -72.39 76.2) (xy -72.39 80.01)
 		)
 		(stroke
@@ -9072,16 +9128,6 @@
 			(type default)
 		)
 		(uuid "f8584b61-9032-48a3-b77d-3885a42aec13")
-	)
-	(wire
-		(pts
-			(xy 24.13 26.67) (xy 36.83 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ba1eb8-6b8c-46d7-9f1e-bc0d55e78142")
 	)
 	(wire
 		(pts
@@ -9142,26 +9188,6 @@
 			(type default)
 		)
 		(uuid "fdcf1cd5-dcbf-471f-bdbb-265a64c184c5")
-	)
-	(wire
-		(pts
-			(xy 172.72 74.93) (xy 172.72 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe35012d-cf8e-462f-9f86-95e9cb8f3254")
-	)
-	(wire
-		(pts
-			(xy 93.98 62.23) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef00831-af00-4de9-ae7d-632e047ee315")
 	)
 	(table
 		(column_count 3)
@@ -10851,7 +10877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 74.93 0)
+		(at 162.56 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10859,7 +10885,7 @@
 		(dnp no)
 		(uuid "0090664f-8281-4e54-b585-68fe914bae3c")
 		(property "Reference" "#PWR0223"
-			(at 176.53 81.28 0)
+			(at 162.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 78.74 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +10902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 74.93 0)
+			(at 162.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +10911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 74.93 0)
+			(at 162.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +10920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 74.93 0)
+			(at 162.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,6 +10935,71 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01922f4f-955d-461e-b204-867169933b23")
+		(property "Reference" "#PWR0155"
+			(at 85.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7d250af-f998-4e63-9d5d-3e378c898c59")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -11080,7 +11171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 52.07 160.02 0)
 			(effects
 				(font
@@ -11322,148 +11413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_COMMS:SSC53L-E3_57T")
-		(at 162.56 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07de0961-615d-462e-bb3c-b3f2b6c81758")
-		(property "Reference" "D10"
-			(at 166.37 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSC53L-E3_57T"
-			(at 166.37 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM7959X262N"
-			(at 65.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf"
-			(at -34.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB"
-			(at 162.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.62"
-			(at -234.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -334.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSC53L-E3/57T"
-			(at -434.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-SSC53L-E3"
-			(at -534.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D"
-			(at -634.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SSC53L-E3/57T"
-			(at -734.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssc53l-e357t/vishay?utm_currency=USD&region=nac"
-			(at -834.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efd95698-d9b0-415a-8973-821a05342e3d")
-		)
-		(pin "1"
-			(uuid "fb756985-25d7-4646-bcc5-5cf551a14266")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 328.93 215.9 180)
 		(unit 1)
@@ -11530,8 +11479,8 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 157.48 58.42 0)
-		(mirror y)
+		(at 176.53 72.39 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11539,7 +11488,7 @@
 		(dnp no)
 		(uuid "0b57f190-b5d6-4a3e-83a9-a22f23d79bc2")
 		(property "Reference" "#PWR0222"
-			(at 157.48 62.23 0)
+			(at 176.53 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11497,7 @@
 			)
 		)
 		(property "Value" "+5V0"
-			(at 157.48 53.34 0)
+			(at 176.53 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,7 +11505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 58.42 0)
+			(at 176.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,7 +11514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 58.42 0)
+			(at 176.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,7 +11523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 157.48 58.42 0)
+			(at 176.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +11571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 44.45 87.63 0)
 			(effects
 				(font
@@ -12029,71 +11978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 34.29 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fb3f675-9748-43a1-9848-443715653078")
-		(property "Reference" "#PWR0155"
-			(at 34.29 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffc04c3-dc23-4fb0-bfd6-2201e785b351")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at -63.5 116.84 0)
 		(unit 1)
@@ -12219,6 +12103,73 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1552dae4-d496-4cad-93a6-b1bc6d756396")
+		(property "Reference" "TP25"
+			(at 181.61 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 181.61 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a7691ea-b7eb-46f6-8878-509508b2a8bf")
+		)
+		(instances
+			(project ""
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -12469,148 +12420,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_COMMS:SSC53L-E3_57T")
-		(at 24.13 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19f1ce6a-c27a-4e5c-a79c-230fbb6d73b3")
-		(property "Reference" "D7"
-			(at 27.94 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSC53L-E3_57T"
-			(at 27.94 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM7959X262N"
-			(at -73.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf"
-			(at -173.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB"
-			(at 24.13 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.62"
-			(at -373.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -473.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSC53L-E3/57T"
-			(at -573.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-SSC53L-E3"
-			(at -673.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D"
-			(at -773.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SSC53L-E3/57T"
-			(at -873.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssc53l-e357t/vishay?utm_currency=USD&region=nac"
-			(at -973.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78626343-9dc7-412c-b77c-f25e312ac97b")
-		)
-		(pin "1"
-			(uuid "e38d10eb-a78f-41b7-9769-1bf911878b85")
-		)
-		(instances
-			(project ""
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13216,9 +13025,14 @@
 	)
 	(symbol
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		(lib_id "Diode:BAS21")
 		(at 21.59 60.96 90)
+=======
+		(lib_id "Diode:BAS21")
+		(at 21.59 63.5 270)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13227,7 +13041,11 @@
 		(dnp no)
 		(uuid "2ccfeb2f-c037-479f-b140-826070cc23e4")
 		(property "Reference" "D10"
+<<<<<<< HEAD
 			(at 19.05 60.9599 90)
+=======
+			(at 24.13 63.5001 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13054,11 @@
 			)
 		)
 		(property "Value" "BAS21"
+<<<<<<< HEAD
 			(at 19.05 62.2299 90)
+=======
+			(at 24.13 62.2301 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13067,11 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+<<<<<<< HEAD
 			(at 26.035 60.96 0)
+=======
+			(at 17.145 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13080,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
+<<<<<<< HEAD
 			(at 21.59 60.96 0)
+=======
+			(at 21.59 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13093,11 @@
 			)
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
+<<<<<<< HEAD
 			(at 21.59 60.96 0)
+=======
+			(at 21.59 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13124,10 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(lib_id "samac_sys:S2761-46R")
 		(at 326.39 69.85 0)
 		(unit 1)
@@ -13603,7 +13440,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 111.76 60.96 0)
+		(at 100.33 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13612,7 +13449,7 @@
 		(fields_autoplaced yes)
 		(uuid "32bbc12b-e54b-43ee-9eae-559de8c0f338")
 		(property "Reference" "J30"
-			(at 114.3 60.9599 0)
+			(at 102.87 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13621,7 +13458,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 114.3 63.4999 0)
+			(at 102.87 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13630,11 +13467,16 @@
 			)
 		)
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 =======
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
 			(at 111.76 60.96 0)
+=======
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 100.33 58.42 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13643,7 +13485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 60.96 0)
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13652,7 +13494,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 60.96 0)
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15132,7 +14974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 41.91 123.19 0)
 			(effects
 				(font
@@ -15424,7 +15266,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 45.72 0)
+		(at 21.59 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15432,7 +15274,7 @@
 		(dnp no)
 		(uuid "5445f866-b6da-4851-9e4b-cf75f3fbe35f")
 		(property "Reference" "#PWR0153"
-			(at 21.59 52.07 0)
+			(at 21.59 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15441,7 +15283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 49.53 0)
+			(at 21.59 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 45.72 0)
+			(at 21.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,7 +15300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 45.72 0)
+			(at 21.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 45.72 0)
+			(at 21.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16056,7 +15898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 40.64 58.42 0)
 			(effects
 				(font
@@ -16544,72 +16386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69a1d6b2-52b1-4a98-860e-1e9bc4fceaa1")
-		(property "Reference" "#PWR0220"
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f86d5d1-4540-4ca2-ab5d-2042bb62651c")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "#PWR0220")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:XT90PW-F")
 		(at -96.52 252.73 180)
 		(unit 1)
@@ -17071,7 +16847,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 93.98 55.88 0)
+		(at 93.98 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17080,7 +16856,7 @@
 		(fields_autoplaced yes)
 		(uuid "7385131a-802b-44e6-bd5d-e912e0bdfef9")
 		(property "Reference" "#PWR0219"
-			(at 93.98 59.69 0)
+			(at 93.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17089,7 +16865,7 @@
 			)
 		)
 		(property "Value" "+5V0"
-			(at 93.98 50.8 0)
+			(at 93.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17097,7 +16873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 55.88 0)
+			(at 93.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,7 +16882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 55.88 0)
+			(at 93.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17115,7 +16891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 93.98 55.88 0)
+			(at 93.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17130,6 +16906,71 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73dc10a5-df63-4c23-b63f-3722594512b3")
+		(property "Reference" "#PWR0146"
+			(at 21.59 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "212e71bf-a44f-4e30-83c0-15c29c355375")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -19206,7 +19047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -19243,6 +19084,73 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bf3b248-1e0e-4e75-8f8e-51b7b1fca720")
+		(property "Reference" "TP26"
+			(at 171.45 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ae1d78a-33ea-41b0-bab5-2756b6f8d02c")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -19878,7 +19786,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 17.78 55.88 0)
+		(at 34.29 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19887,7 +19795,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0fa84ba-2701-471c-b913-570a0fc9a6c0")
 		(property "Reference" "#PWR0150"
-			(at 17.78 59.69 0)
+			(at 34.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19896,7 +19804,7 @@
 			)
 		)
 		(property "Value" "+5V0"
-			(at 17.78 50.8 0)
+			(at 34.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19904,7 +19812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 55.88 0)
+			(at 34.29 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19913,7 +19821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 55.88 0)
+			(at 34.29 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19922,7 +19830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 17.78 55.88 0)
+			(at 34.29 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,10 +20236,14 @@
 			)
 		)
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 =======
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(at 138.43 110.49 0)
 			(effects
 				(font
@@ -20980,148 +20892,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_COMMS:SSC53L-E3_57T")
-		(at 22.86 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae544b86-ec66-4441-90a0-47f7ff6728b7")
-		(property "Reference" "D8"
-			(at 26.67 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSC53L-E3_57T"
-			(at 26.67 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM7959X262N"
-			(at -74.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf"
-			(at -174.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB"
-			(at 22.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.62"
-			(at -374.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -474.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSC53L-E3/57T"
-			(at -574.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-SSC53L-E3"
-			(at -674.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D"
-			(at -774.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SSC53L-E3/57T"
-			(at -874.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssc53l-e357t/vishay?utm_currency=USD&region=nac"
-			(at -974.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3634d35e-4903-48ad-aac4-a75dabe6628a")
-		)
-		(pin "1"
-			(uuid "ba2dedef-c6de-46bb-838b-d65c4c9bed67")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -23329,6 +23099,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAS21")
+		(at 24.13 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7440526-a2d5-4b6b-aafc-337c955701ef")
+		(property "Reference" "D8"
+			(at 26.67 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAS21"
+			(at 26.67 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 19.685 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
+			(at 24.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
+			(at 24.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86b3832-c61f-4a03-bdb5-7e2a7d23b7e2")
+		)
+		(pin "3"
+			(uuid "20c52a1e-b161-4b09-8c8a-d6b65a86ad3e")
+		)
+		(pin "2"
+			(uuid "d259faae-f644-4d5b-8b1a-8c6c375b0748")
+		)
+		(instances
+			(project "POWER DISTRIBUTIONB BOARD"
+				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 415.29 53.34 180)
 		(unit 1)
@@ -23637,125 +23480,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "samac_sys:S2761-46R")
-		(at 184.15 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cda4df4d-d4fe-4656-b6c4-1f2cbe656bf4")
-		(property "Reference" "TP27"
-			(at 200.66 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 200.66 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 200.66 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 200.66 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 184.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 200.66 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 200.66 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 200.66 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 200.66 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 200.66 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "379edcd3-dc34-439e-a266-707b7b68ed41")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -24268,9 +23992,14 @@
 	)
 	(symbol
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		(lib_id "Diode:BAS21")
 		(at 96.52 66.04 270)
+=======
+		(lib_id "Diode:BAS21")
+		(at 85.09 63.5 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24279,25 +24008,45 @@
 		(fields_autoplaced yes)
 		(uuid "d276a53e-a9a5-4bac-8243-850a1baf6f6c")
 		(property "Reference" "D12"
+<<<<<<< HEAD
 			(at 99.06 64.7699 90)
+=======
+			(at 87.63 62.2299 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Value" "BAS21"
 			(at 99.06 67.3099 90)
+=======
+				(justify right)
+			)
+		)
+		(property "Value" "BAS21"
+			(at 87.63 64.7699 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 92.075 66.04 0)
+=======
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 89.535 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24306,7 +24055,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
+<<<<<<< HEAD
 			(at 96.52 66.04 0)
+=======
+			(at 85.09 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24315,7 +24068,11 @@
 			)
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
+<<<<<<< HEAD
 			(at 96.52 66.04 0)
+=======
+			(at 85.09 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24342,7 +24099,10 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(lib_id "power:GND1")
 		(at 373.38 137.16 0)
 		(unit 1)
@@ -24736,9 +24496,14 @@
 	)
 	(symbol
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		(lib_id "Diode:BAS21")
 		(at 162.56 67.31 270)
+=======
+		(lib_id "Diode:BAS21")
+		(at 162.56 67.31 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24752,7 +24517,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify left)
+=======
+				(justify right)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			)
 		)
 		(property "Value" "BAS21"
@@ -24761,11 +24530,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 158.115 67.31 0)
+=======
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 167.005 67.31 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24810,7 +24587,10 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(lib_id "power:+BATT")
 		(at -165.1 317.5 90)
 		(unit 1)
@@ -24969,7 +24749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 44.45 189.23 0)
 			(effects
 				(font
@@ -25433,7 +25213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -26476,148 +26256,6 @@
 			(project "POWER DISTRIBUTIONB BOARD"
 				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_COMMS:SSC53L-E3_57T")
-		(at 93.98 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec434f0b-974b-4191-912d-323d0487333b")
-		(property "Reference" "D9"
-			(at 97.79 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSC53L-E3_57T"
-			(at 97.79 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM7959X262N"
-			(at -3.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1391832.pdf"
-			(at -103.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 30V 5A SMC Vishay SSC53L-E3/57T, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB"
-			(at 93.98 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.62"
-			(at -303.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -403.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSC53L-E3/57T"
-			(at -503.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-SSC53L-E3"
-			(at -603.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSC53L-E3-57T?qs=x2jpVgRnAtMzB1PGtQ8IgQ%3D%3D"
-			(at -703.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SSC53L-E3/57T"
-			(at -803.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssc53l-e357t/vishay?utm_currency=USD&region=nac"
-			(at -903.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc77fb21-c954-4c54-ae31-8ee2b6c27911")
-		)
-		(pin "1"
-			(uuid "3ffc069c-57d9-4c9f-afd1-183279837d56")
-		)
-		(instances
-			(project "POWER DISTRIBUTIONB BOARD"
-				(path "/6b4fba0a-be05-4717-a711-480ed8a7f3e0/fe474e84-6ab3-4580-b13e-8feef1f60b37"
-					(reference "D9")
 					(unit 1)
 				)
 			)
