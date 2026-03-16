@@ -1,6 +1,10 @@
 {
   "board": {
+<<<<<<< HEAD
     "active_layer": 0,
+=======
+    "active_layer": 2,
+>>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
