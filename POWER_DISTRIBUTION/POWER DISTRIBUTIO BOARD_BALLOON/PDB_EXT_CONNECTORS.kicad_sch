@@ -5641,7 +5641,11 @@
 	(junction
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(at 176.53 72.39)
+=======
+		(at 21.59 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 		(at 21.59 58.42)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -5852,6 +5856,7 @@
 	(junction
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(at 34.29 72.39)
 =======
 		(at 34.29 64.77)
@@ -5867,6 +5872,11 @@
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(diameter 0)
 		(color 0 0 0 0)
+=======
+		(at 24.13 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(uuid "c669759e-b2e6-49e6-9b43-78ba68836f96")
 	)
 	(junction
@@ -5889,12 +5899,16 @@
 	)
 	(junction
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(at 176.53 59.69)
 <<<<<<< HEAD
 =======
+=======
+		(at 85.09 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4f7690e-6f8d-4bca-b1c8-50eb46909ced")
+		(uuid "ea32e2af-61c3-4ec0-8e7d-1421cb256f6a")
 	)
 	(junction
 		(at 96.52 60.96)
@@ -6178,6 +6192,7 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 96.52 74.93) (xy 96.52 77.47)
 		)
 		(stroke
@@ -6200,6 +6215,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 325.12 83.82) (xy 328.93 83.82)
@@ -6294,6 +6311,7 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 34.29 73.66) (xy 34.29 72.39)
 =======
 			(xy 34.29 73.66) (xy 34.29 64.77)
@@ -6307,6 +6325,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 417.83 130.81) (xy 417.83 132.08)
@@ -6551,8 +6571,12 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 21.59 57.15) (xy 27.94 57.15)
+=======
+			(xy 21.59 58.42) (xy 35.56 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(xy 21.59 58.42) (xy 35.56 58.42)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -6566,7 +6590,10 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -83.82 68.58) (xy -72.39 68.58)
@@ -6941,6 +6968,7 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 17.78 57.15) (xy 22.86 57.15)
 =======
 			(xy 17.78 57.15) (xy 21.59 57.15)
@@ -6954,6 +6982,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -104.14 163.83) (xy -105.41 163.83)
@@ -7218,8 +7248,12 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 176.53 71.12) (xy 176.53 74.93)
+=======
+			(xy 176.53 71.12) (xy 176.53 72.39)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(xy 176.53 71.12) (xy 176.53 72.39)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -7233,6 +7267,7 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 34.29 60.96) (xy 34.29 64.77)
 		)
 		(stroke
@@ -7244,6 +7279,8 @@
 	(wire
 		(pts
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 323.85 109.22) (xy 330.2 109.22)
@@ -7428,8 +7465,12 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 162.56 59.69) (xy 176.53 59.69)
+=======
+			(xy 162.56 59.69) (xy 168.91 59.69)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(xy 162.56 59.69) (xy 168.91 59.69)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -7443,7 +7484,10 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -72.39 66.04) (xy -72.39 64.77)
@@ -7768,8 +7812,11 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 22.86 72.39) (xy 34.29 72.39)
 =======
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 24.13 29.21) (xy 24.13 26.67)
@@ -7783,8 +7830,12 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 21.59 64.77) (xy 34.29 64.77)
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+			(xy 21.59 67.31) (xy 34.29 67.31)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(xy 21.59 67.31) (xy 34.29 67.31)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -8528,6 +8579,7 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 27.94 58.42) (xy 35.56 58.42)
 		)
 		(stroke
@@ -8551,6 +8603,8 @@
 		(pts
 =======
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy 375.92 132.08) (xy 381 132.08)
@@ -8645,10 +8699,14 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(xy 93.98 60.96) (xy 106.68 60.96)
 =======
 			(xy 96.52 60.96) (xy 96.52 62.23)
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+			(xy 85.09 58.42) (xy 85.09 59.69)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(xy 85.09 58.42) (xy 85.09 59.69)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -9103,8 +9161,12 @@
 		(pts
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			(xy 96.52 60.96) (xy 106.68 60.96)
+=======
+			(xy 85.09 58.42) (xy 95.25 58.42)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(xy 85.09 58.42) (xy 95.25 58.42)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -9118,7 +9180,10 @@
 	(wire
 		(pts
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(xy -72.39 76.2) (xy -72.39 80.01)
@@ -13026,9 +13091,14 @@
 	(symbol
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		(lib_id "Diode:BAS21")
 		(at 21.59 60.96 90)
+=======
+		(lib_id "Diode:BAS21")
+		(at 21.59 63.5 270)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 		(lib_id "Diode:BAS21")
 		(at 21.59 63.5 270)
@@ -13042,7 +13112,11 @@
 		(uuid "2ccfeb2f-c037-479f-b140-826070cc23e4")
 		(property "Reference" "D10"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 19.05 60.9599 90)
+=======
+			(at 24.13 63.5001 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 24.13 63.5001 90)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -13055,7 +13129,11 @@
 		)
 		(property "Value" "BAS21"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 19.05 62.2299 90)
+=======
+			(at 24.13 62.2301 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 24.13 62.2301 90)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -13068,7 +13146,11 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 26.035 60.96 0)
+=======
+			(at 17.145 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 17.145 63.5 0)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -13081,7 +13163,11 @@
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 21.59 60.96 0)
+=======
+			(at 21.59 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 21.59 63.5 0)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -13094,7 +13180,11 @@
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 21.59 60.96 0)
+=======
+			(at 21.59 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 21.59 63.5 0)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -13125,7 +13215,10 @@
 	)
 	(symbol
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(lib_id "samac_sys:S2761-46R")
@@ -13468,11 +13561,16 @@
 		)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 =======
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
 			(at 111.76 60.96 0)
+=======
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 100.33 58.42 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 100.33 58.42 0)
@@ -20237,10 +20335,14 @@
 		)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 =======
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -23993,9 +24095,14 @@
 	(symbol
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		(lib_id "Diode:BAS21")
 		(at 96.52 66.04 270)
+=======
+		(lib_id "Diode:BAS21")
+		(at 85.09 63.5 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 		(lib_id "Diode:BAS21")
 		(at 85.09 63.5 90)
@@ -24009,7 +24116,11 @@
 		(uuid "d276a53e-a9a5-4bac-8243-850a1baf6f6c")
 		(property "Reference" "D12"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 99.06 64.7699 90)
+=======
+			(at 87.63 62.2299 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 87.63 62.2299 90)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -24018,22 +24129,29 @@
 					(size 1.27 1.27)
 				)
 <<<<<<< HEAD
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Value" "BAS21"
 			(at 99.06 67.3099 90)
 =======
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 				(justify right)
 			)
 		)
 		(property "Value" "BAS21"
 			(at 87.63 64.7699 90)
+<<<<<<< HEAD
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
+=======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 <<<<<<< HEAD
 				(justify left)
 			)
@@ -24041,11 +24159,16 @@
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 92.075 66.04 0)
 =======
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 89.535 63.5 0)
+<<<<<<< HEAD
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
+=======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
@@ -24056,7 +24179,11 @@
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/Ds12004.pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 96.52 66.04 0)
+=======
+			(at 85.09 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 85.09 63.5 0)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -24069,7 +24196,11 @@
 		)
 		(property "Description" "250V, 0.4A, High-speed Switching Diode, SOT-23"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			(at 96.52 66.04 0)
+=======
+			(at 85.09 63.5 0)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 			(at 85.09 63.5 0)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -24100,7 +24231,10 @@
 	)
 	(symbol
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(lib_id "power:GND1")
@@ -24497,9 +24631,14 @@
 	(symbol
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		(lib_id "Diode:BAS21")
 		(at 162.56 67.31 270)
+=======
+		(lib_id "Diode:BAS21")
+		(at 162.56 67.31 90)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 		(lib_id "Diode:BAS21")
 		(at 162.56 67.31 90)
@@ -24518,7 +24657,11 @@
 					(size 1.27 1.27)
 				)
 <<<<<<< HEAD
+<<<<<<< HEAD
 				(justify left)
+=======
+				(justify right)
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 				(justify right)
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
@@ -24531,17 +24674,23 @@
 					(size 1.27 1.27)
 				)
 <<<<<<< HEAD
+<<<<<<< HEAD
 				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 158.115 67.31 0)
 =======
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 167.005 67.31 0)
+<<<<<<< HEAD
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
+=======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 			(effects
 				(font
@@ -24588,7 +24737,10 @@
 	)
 	(symbol
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ea37baf (LAYOUT CHANGES TO)
+=======
+>>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 =======
 >>>>>>> parent of 13a6738 (Merge pull request #3 from Blastocyst07/main)
 		(lib_id "power:+BATT")
